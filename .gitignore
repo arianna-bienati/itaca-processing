@@ -1,0 +1,8 @@
+*.pickle
+env
+__pycache__
+*.pickle
+old
+jennifer.frey@eurac.edu.tsv
+.DS_Store
+.idea

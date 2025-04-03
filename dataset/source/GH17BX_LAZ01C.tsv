@@ -1,0 +1,264 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+#T_SP=webanno.custom.Connettivoproblematico|Commento|Problematico
+#T_SP=webanno.custom.Connettivo|Connettivo
+#T_SP=webanno.custom.ConnettivoproblematicoTint|Tint
+#T_SP=webanno.custom.Segmentazione|Virgolasplice
+#T_SP=webanno.custom.SegmentazioneVirgoladitroppo|Virgoladitroppo
+#T_SP=webanno.custom.StrutturaCapoverso|Capoverso
+
+
+#Text=Nella mia opinione sono in contro la proposta di estendere permanentemente la Didattica Digitale Integrata questo perché appunto non richiede la presenza a scuola degli studenti e degli insegnanti, ma avviene online spesso all'interno di un aula virtuale.
+1-1	0-5	Nella	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	nella	det	1-3	_	_	_	_	_	_	true
+1-2	6-9	mia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Fem\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	mio	det:poss	1-3	_	_	_	_	_	_	_
+1-3	10-18	opinione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	opinione	nsubj	1-8	_	_	_	_	_	_	_
+1-4	19-23	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	essere	cop	1-8	_	_	_	_	_	_	_
+1-5	24-26	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	in	case	1-8	_	_	_	_	_	_	_
+1-6	27-33	contro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	contro	fixed	1-5	_	_	_	_	_	_	_
+1-7	34-36	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	la	det	1-8	_	_	_	_	_	_	_
+1-8	37-45	proposta	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	proposta	nsubj	1-20	_	_	_	_	_	_	_
+1-9	46-48	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	mark	1-10	_	_	_	_	_	_	_
+1-10	49-58	estendere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	estendere	advcl	1-20	_	_	_	_	_	_	_
+1-11	59-74	permanentemente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	permanentemente	advmod	1-10	_	_	_	_	_	_	_
+1-12	75-77	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	la	det	1-13	_	_	_	_	_	_	_
+1-13	78-87	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	Didattica	nsubj	1-20	_	_	_	_	_	_	_
+1-14	88-96	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	Digitale	flat:name	1-13	_	_	_	_	_	_	_
+1-15	97-106	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	Integrata	flat:name	1-13	_	_	_	_	_	_	_
+1-16	107-113	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	questo	nsubj	1-20	_	_	_	_	_	_	_
+1-17	114-120	perché	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	perché	advmod	1-20	*	false	true	_	_	_	_
+1-18	121-128	appunto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	appunto	advmod	1-20	_	_	_	_	_	_	_
+1-19	129-132	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	non	advmod	1-20	_	_	_	_	_	_	_
+1-20	133-141	richiede	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	richiedere	root	1-20	_	_	_	_	_	_	_
+1-21	142-144	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	la	det	1-22	_	_	_	_	_	_	_
+1-22	145-153	presenza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	presenza	obj	1-20	_	_	_	_	_	_	_
+1-23	154-155	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	a	case	1-24	_	_	_	_	_	_	_
+1-24	156-162	scuola	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	scuola	nmod	1-22	_	_	_	_	_	_	_
+1-25	163-168	degli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	del	det	1-26	_	_	_	_	_	_	_
+1-26	169-177	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	studente	nmod	1-24	_	_	_	_	_	_	_
+1-27	178-179	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	1-29	_	_	_	coord-name	_	_	_
+1-28	180-185	degli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	del	det	1-29	_	_	_	_	_	_	_
+1-29	186-196	insegnanti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	insegnante	conj	1-26	_	_	_	_	_	_	_
+1-30	196-197	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	,	punct	1-32	_	_	_	_	Corretto	_	_
+1-31	198-200	ma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	ma	cc	1-32	*	false	true	_	_	_	_
+1-32	201-208	avviene	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	avvenire	conj	1-20	_	_	_	_	_	_	_
+1-33	209-215	online	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	online	xcomp	1-32	_	_	_	_	_	_	_
+1-34	216-222	spesso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	spesso	advmod	1-36	_	_	_	_	_	_	_
+1-35	223-227	all'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	all'	case	1-36	_	_	_	_	_	_	_
+1-36	227-234	interno	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	interno	obl	1-33	_	_	_	_	_	_	_
+1-37	235-237	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	1-39	_	_	_	_	_	_	_
+1-38	238-240	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	un	det	1-39	_	_	_	_	_	_	_
+1-39	241-245	aula	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	aula	nmod	1-36	_	_	_	_	_	_	_
+1-40	246-254	virtuale	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	virtuale	amod	1-39	_	_	_	_	_	_	_
+1-41	254-255	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	1-20	_	_	_	_	_	_	_
+
+#Text=Gli svantaggi della Didattica Digitale Integrata sono superiori a livello fisico ed a livello psicologico:
+2-1	256-259	Gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	il	det	2-2	_	_	_	_	_	_	_
+2-2	260-269	svantaggi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	svantaggio	nsubj	2-8	_	_	_	_	_	_	_
+2-3	270-275	della	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	della	nsubj	2-8	_	_	_	_	_	_	_
+2-4	276-285	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	Didattica	nmod	2-3	_	_	_	_	_	_	_
+2-5	286-294	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	Digitale	flat:name	2-4	_	_	_	_	_	_	_
+2-6	295-304	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	Integrata	flat:name	2-4	_	_	_	_	_	_	_
+2-7	305-309	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	essere	cop	2-8	_	_	_	_	_	_	_
+2-8	310-319	superiori	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	A	ADJ	superiore	root	2-8	_	_	_	_	_	_	_
+2-9	320-321	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	a	case	2-10	_	_	_	_	_	_	_
+2-10	322-329	livello	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	livello	obl	2-8	_	_	_	_	_	_	_
+2-11	330-336	fisico	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	fisico	amod	2-10	_	_	_	_	_	_	_
+2-12	337-339	ed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	ed	cc	2-14	_	_	_	coord-name	_	_	_
+2-13	340-341	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	a	case	2-14	_	_	_	_	_	_	_
+2-14	342-349	livello	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	livello	conj	2-10	_	_	_	_	_	_	_
+2-15	350-361	psicologico	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	psicologico	amod	2-14	_	_	_	_	_	_	_
+2-16	361-362	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FC	PUNCT	:	punct	2-8	_	_	_	_	_	_	_
+
+#Text=ad esempio gli apparecchi elettronici possono correlare disfunzioni del collegamento il quale provoca l'impossibilità di essere concentrati a lezioni.
+3-1	363-365	ad	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	ad	case	3-2	*[1]	false[1]	true[100]	_	_	_	_
+3-2	366-373	esempio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	esempio	obl	3-7	*[1]	false[1]	true[100]	_	_	_	_
+3-3	374-377	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	il	det	3-4	_	_	_	_	_	_	_
+3-4	378-388	apparecchi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	apparecchio	nsubj	3-7	_	_	_	_	_	_	_
+3-5	389-400	elettronici	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	elettronico	amod	3-4	_	_	_	_	_	_	_
+3-6	401-408	possono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	potere	aux	3-7	_	_	_	_	_	_	_
+3-7	409-418	correlare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	correlare	root	3-7	_	_	_	_	_	_	_
+3-8	419-430	disfunzioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	disfunzione	obj	3-7	_	_	_	_	_	_	_
+3-9	431-434	del	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	del	det	3-10	_	_	_	_	_	_	_
+3-10	435-447	collegamento	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	collegamento	nmod	3-8	_	_	_	_	_	_	_
+3-11	448-450	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	il	det	3-12	_	_	_	_	_	_	_
+3-12	451-456	quale	*	*	*	*	*	*	*	*	*	Sing	3	*	Rel	*	*	*	Number=Sing\|Person=3\|PronType=Rel	*	*	PR	PRON	quale	nsubj	3-13	_	_	_	_	_	_	_
+3-13	457-464	provoca	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	provocare	acl:relcl	3-8	_	_	_	_	_	_	_
+3-14	465-467	l'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	RD	DET	l'	det	3-15	_	_	_	_	_	_	_
+3-15	467-480	impossibilità	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	impossibilità	obj	3-13	_	_	_	_	_	_	_
+3-16	481-483	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	mark	3-18	_	_	_	_	_	_	_
+3-17	484-490	essere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	VA	AUX	essere	aux	3-18	_	_	_	_	_	_	_
+3-18	491-502	concentrati	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	Past	*	Gender=Masc\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	concentrare	acl	3-15	_	_	_	_	_	_	_
+3-19	503-504	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	a	case	3-20	_	_	_	_	_	_	_
+3-20	505-512	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	lezione	obl	3-18	_	_	_	_	_	_	_
+3-21	512-513	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	3-7	_	_	_	_	_	_	_
+
+#Text=Inoltre durante le lezioni gli studenti perdono facilmente la concentrazione, guardando il proprio cellulare o anche semplicemente facendo altre attività.
+4-1	514-521	Inoltre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	inoltre	advmod	4-7	*	false	true	_	_	_	_
+4-2	522-529	durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	durante	case	4-4	_	_	_	_	_	_	_
+4-3	530-532	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	la	det	4-4	_	_	_	_	_	_	_
+4-4	533-540	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	lezione	obl	4-7	_	_	_	_	_	_	_
+4-5	541-544	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	il	det	4-6	_	_	_	_	_	_	_
+4-6	545-553	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	studente	nsubj	4-7	_	_	_	_	_	_	_
+4-7	554-561	perdono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	perdere	root	4-7	_	_	_	_	_	_	_
+4-8	562-572	facilmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	facilmente	advmod	4-7	_	_	_	_	_	_	_
+4-9	573-575	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	la	det	4-10	_	_	_	_	_	_	_
+4-10	576-590	concentrazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	concentrazione	obj	4-7	_	_	_	_	_	_	_
+4-11	590-591	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	,	punct	4-7	_	_	_	_	Corretto	_	_
+4-12	592-601	guardando	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	guardare	advcl	4-7	_	_	_	_	_	_	_
+4-13	602-604	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	il	det	4-15	_	_	_	_	_	_	_
+4-14	605-612	proprio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Masc\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	proprio	det:poss	4-15	_	_	_	_	_	_	_
+4-15	613-622	cellulare	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	cellulare	obj	4-12	_	_	_	_	_	_	_
+4-16	623-624	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	o	cc	4-19	*	false	true	_	_	_	_
+4-17	625-630	anche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	anche	advmod	4-18	*	false	true	_	_	_	_
+4-18	631-644	semplicemente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	semplicemente	advmod	4-19	_	_	_	_	_	_	_
+4-19	645-652	facendo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	fare	conj	4-15	_	_	_	_	_	_	_
+4-20	653-658	altre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	A	ADJ	altro	amod	4-21	_	_	_	_	_	_	_
+4-21	659-667	attività	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	attività	obj	4-19	_	_	_	_	_	_	_
+4-22	667-668	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	4-7	_	_	_	_	_	_	_
+
+#Text=Da un altra parte i docenti appunto, sono incapaci di avere un riscontro di cosa i propri alunni abbiano compreso.
+5-1	669-671	Da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	da	case	5-4	_	_	_	_	_	_	_
+5-2	672-674	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	un	det	5-4	_	_	_	_	_	_	_
+5-3	675-680	altra	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	altro	amod	5-4	_	_	_	_	_	_	_
+5-4	681-686	parte	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	parte	obl	5-10	_	_	_	_	_	_	_
+5-5	687-688	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	il	det	5-6	_	_	_	_	_	_	_
+5-6	689-696	docenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	docente	nsubj	5-10	_	_	_	_	_	_	_
+5-7	697-704	appunto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	appunto	advmod	5-6	_	_	_	_	_	_	_
+5-8	704-705	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	,	punct	5-6	_	_	_	_	Corretto	true	_
+5-9	706-710	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	essere	cop	5-10	_	_	_	_	_	_	_
+5-10	711-719	incapaci	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	incapace	advcl	5-21	_	_	_	_	_	_	_
+5-11	720-722	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	mark	5-12	_	_	_	_	_	_	_
+5-12	723-728	avere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	avere	advcl	5-21	_	_	_	_	_	_	_
+5-13	729-731	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	un	det	5-14	_	_	_	_	_	_	_
+5-14	732-741	riscontro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	riscontro	obj	5-12	_	_	_	_	_	_	_
+5-15	742-744	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	5-16	_	_	_	_	_	_	_
+5-16	745-749	cosa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	cosa	nmod	5-14	_	_	_	_	_	_	_
+5-17	750-751	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	il	det	5-19	_	_	_	_	_	_	_
+5-18	752-758	propri	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Prs	*	*	*	Gender=Masc\|Number=Plur\|Poss=Yes\|PronType=Prs	*	*	AP	DET	proprio	det:poss	5-19	_	_	_	_	_	_	_
+5-19	759-765	alunni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	alunno	nsubj	5-21	_	_	_	_	_	_	_
+5-20	766-773	abbiano	*	*	*	*	*	*	Sub	*	*	Plur	3	*	*	*	Pres	*	Mood=Sub\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	avere	aux	5-21	_	_	_	_	_	_	_
+5-21	774-782	compreso	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	comprendere	root	5-21	_	_	_	_	_	_	_
+5-22	782-783	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	5-21	_	_	_	_	_	_	_
+
+#Text=Per questo motivo secondo la fonte "Rapporto" le famiglie degli studenti dichiarano segnali di stanchezza e scarsa concentrazione, problemi di socializzazione e ridotta capacitò di seguire le lezioni.
+6-1	784-787	Per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	per	case	6-3	*[2]	false[2]	true[200]	overlap	_	_	_
+6-2	788-794	questo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|PronType=Dem	*	*	DD	DET	questo	det	6-3	*[2]	false[2]	true[200]	_	_	_	_
+6-3	795-801	motivo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	motivo	obl	6-14	*[2]	false[2]	true[200]	_	_	_	_
+6-4	802-809	secondo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	secondo	case	6-6	_	_	_	_	_	_	_
+6-5	810-812	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	la	det	6-6	_	_	_	_	_	_	_
+6-6	813-818	fonte	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	fonte	obl	6-14	_	_	_	_	_	_	_
+6-7	819-820	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FB	PUNCT	"	punct	6-8	_	_	_	_	_	_	_
+6-8	820-828	Rapporto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	rapporto	nmod	6-6	_	_	_	_	_	_	_
+6-9	828-829	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FB	PUNCT	"	punct	6-8	_	_	_	_	_	_	_
+6-10	830-832	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	la	det	6-11	_	_	_	_	_	_	_
+6-11	833-841	famiglie	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	famiglia	nsubj	6-14	_	_	_	_	_	_	_
+6-12	842-847	degli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	del	det	6-13	_	_	_	_	_	_	_
+6-13	848-856	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	studente	nsubj	6-14	_	_	_	_	_	_	_
+6-14	857-867	dichiarano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	dichiarare	root	6-14	_	_	_	_	_	_	_
+6-15	868-875	segnali	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	segnale	obj	6-14	_	_	_	_	_	_	_
+6-16	876-878	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	6-17	_	_	_	_	_	_	_
+6-17	879-889	stanchezza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	stanchezza	nmod	6-15	_	_	_	_	_	_	_
+6-18	890-891	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	6-20	_	_	_	coord-name	_	_	_
+6-19	892-898	scarsa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	scarso	amod	6-20	_	_	_	_	_	_	_
+6-20	899-913	concentrazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	concentrazione	conj	6-17	_	_	_	_	_	_	_
+6-21	913-914	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	,	punct	6-22	_	_	_	_	Corretto	_	_
+6-22	915-923	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	problema	conj	6-15	_	_	_	_	_	_	_
+6-23	924-926	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	6-24	_	_	_	_	_	_	_
+6-24	927-942	socializzazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	socializzazione	nmod	6-22	_	_	_	_	_	_	_
+6-25	943-944	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	6-26	*	false	true	_	_	_	_
+6-26	945-952	ridotta	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	ridurre	conj	6-15	_	_	_	_	_	_	_
+6-27	953-961	capacitò	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Past	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Past\|VerbForm=Fin	Fin	*	V	VERB	capacitare	advcl	6-26	_	_	_	_	_	_	_
+6-28	962-964	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	mark	6-29	_	_	_	_	_	_	_
+6-29	965-972	seguire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	seguire	xcomp	6-27	_	_	_	_	_	_	_
+6-30	973-975	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	la	det	6-31	_	_	_	_	_	_	_
+6-31	976-983	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	lezione	obj	6-29	_	_	_	_	_	_	_
+6-32	983-984	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	6-14	_	_	_	_	_	_	_
+
+#Text=Nella mia esperienza e nel aver svolto la DaD per due anni penso che non mi è stata di grande aiuto a livello educativo e questo perché mi sentivo molto più indietro di alcune compagne più brave di me, e anche per il fatto che avevo perso l'abitudine di svegliarmi molto più presto e prepararmi con calma per andare a scuola.
+7-1	985-990	Nella	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	nella	root	7-1	_	_	_	_	_	_	_
+7-2	991-994	mia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Fem\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	mio	det:poss	7-3	_	_	_	_	_	_	_
+7-3	995-1005	esperienza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	esperienza	obj	7-1	_	_	_	_	_	_	_
+7-4	1006-1007	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	7-7	*	false	true	_	_	_	_
+7-5	1008-1011	nel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	nel	mark	7-7	_	_	_	_	_	_	_
+7-6	1012-1016	aver	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	VA	AUX	avere	aux	7-7	_	_	_	_	_	_	_
+7-7	1017-1023	svolto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	svolgere	conj	7-3	_	_	_	_	_	_	_
+7-8	1024-1026	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	la	det	7-9	_	_	_	_	_	_	_
+7-9	1027-1030	DaD	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	DaD	obj	7-7	_	_	_	_	_	_	_
+7-10	1031-1034	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	per	case	7-12	*	false	true	_	_	_	_
+7-11	1035-1038	due	*	*	*	*	*	*	*	*	Card	*	*	*	*	*	*	*	NumType=Card	*	*	N	NUM	due	nummod	7-12	_	_	_	_	_	_	_
+7-12	1039-1043	anni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	anno	nmod	7-9	_	_	_	_	_	_	_
+7-13	1044-1049	penso	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	pensare	advcl	7-7	_	_	_	_	_	_	_
+7-14	1050-1053	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	che	mark	7-18	_	_	_	_	_	_	_
+7-15	1054-1057	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	non	advmod	7-18	_	_	_	_	_	_	_
+7-16	1058-1060	mi	*	*	*	*	*	Fem	*	*	*	Sing	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Sing\|Person=1\|PronType=Prs	*	*	PC	PRON	mi	expl	7-18	_	_	_	_	_	_	_
+7-17	1061-1062	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	essere	aux	7-18	_	_	_	_	_	_	_
+7-18	1063-1068	stata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	stare	ccomp	7-13	_	_	_	_	_	_	_
+7-19	1069-1071	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	7-21	_	_	_	_	_	_	_
+7-20	1072-1078	grande	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	grande	amod	7-21	_	_	_	_	_	_	_
+7-21	1079-1084	aiuto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	aiuto	obl	7-18	_	_	_	_	_	_	_
+7-22	1085-1086	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	a	case	7-23	_	_	_	_	_	_	_
+7-23	1087-1094	livello	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	livello	nmod	7-21	_	_	_	_	_	_	_
+7-24	1095-1104	educativo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	educativo	amod	7-23	_	_	_	_	_	_	_
+7-25	1105-1106	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	7-26	*	false	true	_	_	_	_
+7-26	1107-1113	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	questo	conj	7-18	_	_	_	_	_	_	_
+7-27	1114-1120	perché	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	perché	mark	7-29	*	false	true	_	_	_	_
+7-28	1121-1123	mi	*	*	*	*	*	Fem	*	*	*	Sing	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Sing\|Person=1\|PronType=Prs	*	*	PC	PRON	mi	expl	7-29	_	_	_	_	_	_	_
+7-29	1124-1131	sentivo	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Imp	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Imp\|VerbForm=Fin	Fin	*	V	VERB	sentire	advcl	7-18	_	_	_	_	_	_	_
+7-30	1132-1137	molto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	molto	advmod	7-31	_	_	_	_	_	_	_
+7-31	1138-1141	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	più	advmod	7-32	_	_	_	_	_	_	_
+7-32	1142-1150	indietro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	indietro	advmod	7-29	_	_	_	_	_	_	_
+7-33	1151-1153	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	7-35	_	_	_	_	_	_	_
+7-34	1154-1160	alcune	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Fem\|Number=Plur\|PronType=Ind	*	*	DI	DET	alcun	det	7-35	_	_	_	_	_	_	_
+7-35	1161-1169	compagne	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	compagna	obl	7-29	_	_	_	_	_	_	_
+7-36	1170-1173	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	più	advmod	7-37	_	_	_	_	_	_	_
+7-37	1174-1179	brave	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	bravo	amod	7-35	_	_	_	_	_	_	_
+7-38	1180-1182	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	7-39	_	_	_	_	_	_	_
+7-39	1183-1185	me	*	*	*	*	*	*	*	*	*	Sing	1	*	Prs	*	*	*	Number=Sing\|Person=1\|PronType=Prs	*	*	PE	PRON	me	nmod	7-35	_	_	_	_	_	_	_
+7-40	1185-1186	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	,	punct	7-45	_	_	_	_	Corretto	_	_
+7-41	1187-1188	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	7-45	_	_	_	coord-name	_	_	_
+7-42	1189-1194	anche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	anche	advmod	7-45	*	false	true	_	_	_	_
+7-43	1195-1198	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	per	case	7-45	*[3]	false[3]	true[300]	overlap	_	_	_
+7-44	1199-1201	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	il	det	7-45	*[3]	false[3]	true[300]	_	_	_	_
+7-45	1202-1207	fatto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	fatto	conj	7-29	*[3]	false[3]	true[300]	_	_	_	_
+7-46	1208-1211	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	che	mark	7-48	*[3]	false[3]	true[300]	_	_	_	_
+7-47	1212-1217	avevo	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Imp	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Imp\|VerbForm=Fin	Fin	*	VA	AUX	avere	aux	7-48	_	_	_	_	_	_	_
+7-48	1218-1223	perso	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	perdere	acl	7-45	_	_	_	_	_	_	_
+7-49	1224-1226	l'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	RD	DET	l'	det	7-50	_	_	_	_	_	_	_
+7-50	1226-1235	abitudine	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	abitudine	obj	7-48	_	_	_	_	_	_	_
+7-51	1236-1238	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	di	case	7-52	_	_	_	_	_	_	_
+7-52	1239-1249	svegliarmi	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	svegliare	nmod	7-50	_	_	_	_	_	_	_
+7-53	1250-1255	molto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	molto	advmod	7-54	_	_	_	_	_	_	_
+7-54	1256-1259	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	più	advmod	7-55	_	_	_	_	_	_	_
+7-55	1260-1266	presto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	presto	amod	7-52	_	_	_	_	_	_	_
+7-56	1267-1268	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	e	cc	7-57	*	false	true	_	_	_	_
+7-57	1269-1279	prepararmi	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	preparare	conj	7-55	_	_	_	_	_	_	_
+7-58	1280-1283	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	con	case	7-59	_	_	_	_	_	_	_
+7-59	1284-1289	calma	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	calma	obl	7-57	_	_	_	_	_	_	_
+7-60	1290-1293	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	per	mark	7-61	*	false	true	_	_	_	_
+7-61	1294-1300	andare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	andare	acl	7-59	_	_	_	_	_	_	_
+7-62	1301-1302	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	a	case	7-63	_	_	_	_	_	_	_
+7-63	1303-1309	scuola	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	scuola	obl	7-61	_	_	_	_	_	_	_
+7-64	1309-1310	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	7-1	_	_	_	_	_	_	_
+
+#Text=In conclusione sostengo che le attività scolastiche siano migliori in presenza sia per le argomentazioni citate precedentemente.
+8-1	1311-1313	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	in	case	8-2	*[4]	false[4]	true[400]	_	_	_	_
+8-2	1314-1325	conclusione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	conclusione	obl	8-3	*[4]	false[4]	true[400]	_	_	_	_
+8-3	1326-1334	sostengo	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	sostenere	root	8-3	_	_	_	_	_	_	_
+8-4	1335-1338	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	che	mark	8-9	_	_	_	_	_	_	_
+8-5	1339-1341	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	la	det	8-6	_	_	_	_	_	_	_
+8-6	1342-1350	attività	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	attività	nsubj	8-9	_	_	_	_	_	_	_
+8-7	1351-1362	scolastiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	scolastico	amod	8-6	_	_	_	_	_	_	_
+8-8	1363-1368	siano	*	*	*	*	*	*	Sub	*	*	Plur	3	*	*	*	Pres	*	Mood=Sub\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	essere	cop	8-9	_	_	_	_	_	_	_
+8-9	1369-1377	migliori	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	A	ADJ	migliore	ccomp	8-3	_	_	_	_	_	_	_
+8-10	1378-1380	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	in	case	8-11	_	_	_	_	_	_	_
+8-11	1381-1389	presenza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	presenza	obl	8-9	_	_	_	_	_	_	_
+8-12	1390-1393	sia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	sia	cc	8-15	_	_	_	coord-name	_	_	_
+8-13	1394-1397	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	per	case	8-15	*	false	true	_	_	_	_
+8-14	1398-1400	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	la	det	8-15	_	_	_	_	_	_	_
+8-15	1401-1415	argomentazioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	argomentazione	nmod	8-11	_	_	_	_	_	_	_
+8-16	1416-1422	citate	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	Past	*	Gender=Fem\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	citare	acl	8-15	_	_	_	_	_	_	_
+8-17	1423-1438	precedentemente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	precedentemente	advmod	8-16	*	false	true	_	_	_	_
+8-18	1438-1439	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	.	punct	8-3	_	_	_	_	_	_	_

@@ -1,0 +1,325 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.Connettivo|CategoriaPDTB|Comment|Connettivo
+#T_SP=webanno.custom.Connettivoproblematico|Commento|Problematico
+#T_SP=webanno.custom.ConnettivoproblematicoTint|Tint
+#T_SP=webanno.custom.Segmentazione|Virgolasplice
+#T_SP=webanno.custom.SegmentazioneVirgoladitroppo|Virgoladitroppo
+#T_SP=webanno.custom.StrutturaCapoverso|Capoverso
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|flavor|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+
+
+#Text=Egregio signor Ministro,
+1-1	0-7	Egregio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	true	root	*	1-1	
+1-2	8-14	signor	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	1-1	
+1-3	15-23	Ministro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	compound	*	1-2	
+1-4	23-24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	1-2	
+
+#Text=La pandemia causata dal covid-19 ha influito in tutto il mondo.
+2-1	25-27	La	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	true	det	*	2-1	
+2-2	28-36	pandemia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	appos	*	2-1	
+2-3	37-44	causata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	2-1	
+2-4	45-48	dal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	obj	*	2-1	
+2-5	49-57	covid-19	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nsubj	*	2-1	
+2-6	58-60	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	2-1	
+2-7	61-69	influito	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	2-1	
+2-8	70-72	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	2-1	
+2-9	73-78	tutto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Tot	*	*	*	Gender=Masc\|Number=Sing\|PronType=Tot	*	*	T	DET	*	_	_	_	_	_	_	_	_	_	det:predet	*	2-1	
+2-10	79-81	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	2-1	
+2-11	82-87	mondo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	2-1	
+2-12	87-88	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	2-1	
+
+#Text=La chiusura delle scuole ha creato un grande problema per gli studenti, gli insegnanti e per i genitori.
+3-1	89-91	La	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	3-1	
+3-2	92-100	chiusura	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	3-1	
+3-3	101-106	delle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	3-1	
+3-4	107-113	scuole	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	3-1	
+3-5	114-116	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	3-1	
+3-6	117-123	creato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	3-1	
+3-7	124-126	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	3-1	
+3-8	127-133	grande	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	3-1	
+3-9	134-142	problema	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	3-1	
+3-10	143-146	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	3-1	
+3-11	147-150	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	3-1	
+3-12	151-159	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	3-1	
+3-13	159-160	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	3-1	
+3-14	161-164	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	3-1	
+3-15	165-175	insegnanti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	3-1	
+3-16	176-177	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	3-1	
+3-17	178-181	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	3-1	
+3-18	182-183	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	3-1	
+3-19	184-192	genitori	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	3-1	
+3-20	192-193	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	3-1	
+
+#Text=Nessuno non era pronto per questo.
+4-1	194-201	Nessuno	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	4-1	
+4-2	202-205	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	4-1	
+4-3	206-209	era	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Imp	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Imp\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	4-1	
+4-4	210-216	pronto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	4-1	
+4-5	217-220	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*[1]	*[1]	true[1]	*[4]	false[4]	overlap	_	_	_	case	*	4-1	
+4-6	221-227	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	*[1]	*[1]	true[1]	*[4]	false[4]	_	_	_	_	obl	*	4-1	
+4-7	227-228	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	4-1	
+
+#Text=Per gli insegnanti è stato difficile farsi ascoltare e organizzare gli argomenti.
+5-1	229-232	Per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	true	case	*	5-1	
+5-2	233-236	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-1	
+5-3	237-247	insegnanti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	5-1	
+5-4	248-249	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	5-1	
+5-5	250-255	stato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	5-1	
+5-6	256-265	difficile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	5-1	
+5-7	266-271	farsi	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	5-1	
+5-8	272-281	ascoltare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	5-1	
+5-9	282-283	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	5-1	
+5-10	284-295	organizzare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	5-1	
+5-11	296-299	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-1	
+5-12	300-309	argomenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	5-1	
+5-13	309-310	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	5-1	
+
+#Text=I genitori che hanno i figli più piccoli hanno dovuto organizzare il loro lavoro per poter stare con i bambini.
+6-1	311-312	I	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-1	
+6-2	313-321	genitori	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	6-1	
+6-3	322-325	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	6-1	
+6-4	326-331	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	6-1	
+6-5	332-333	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-1	
+6-6	334-339	figli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	6-1	
+6-7	340-343	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	6-1	
+6-8	344-351	piccoli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	6-1	
+6-9	352-357	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	6-1	
+6-10	358-364	dovuto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	6-1	
+6-11	365-376	organizzare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	6-1	
+6-12	377-379	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-1	
+6-13	380-384	loro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Masc\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	6-1	
+6-14	385-391	lavoro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	6-1	
+6-15	392-395	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	6-1	
+6-16	396-401	poter	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	6-1	
+6-17	402-407	stare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	6-1	
+6-18	408-411	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	6-1	
+6-19	412-413	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-1	
+6-20	414-421	bambini	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	6-1	
+6-21	421-422	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	6-1	
+
+#Text=È vero che fare le interrogazioni e le verifiche in DaD è comodo però un giorno sarà difficile applicare queste conoscenze nel mondo del lavoro.
+7-1	423-424	È	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	7-1	
+7-2	425-429	vero	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	advcl	*	7-1	
+7-3	430-433	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	7-1	
+7-4	434-438	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	7-1	
+7-5	439-441	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-1	
+7-6	442-456	interrogazioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	7-1	
+7-7	457-458	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	7-1	
+7-8	459-461	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-1	
+7-9	462-471	verifiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	7-1	
+7-10	472-474	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	7-1	
+7-11	475-478	DaD	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nmod	*	7-1	
+7-12	479-480	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	7-1	
+7-13	481-487	comodo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	7-1	
+7-14	488-492	però	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*	*	true	*	false	_	_	_	_	advmod	*	7-1	
+7-15	493-495	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-1	
+7-16	496-502	giorno	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-1	
+7-17	503-507	sarà	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Fut	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Fut\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	7-1	
+7-18	508-517	difficile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	7-1	
+7-19	518-527	applicare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	csubj	*	7-1	
+7-20	528-534	queste	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Dem	*	*	*	Gender=Fem\|Number=Plur\|PronType=Dem	*	*	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-1	
+7-21	535-545	conoscenze	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	7-1	
+7-22	546-549	nel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	7-1	
+7-23	550-555	mondo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	7-1	
+7-24	556-559	del	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	7-1	
+7-25	560-566	lavoro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	7-1	
+7-26	566-567	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	7-1	
+
+#Text=La maggior parte dei giovani crede che questo è il modo giusto per fare lezione perché riescono a svolgere le verifiche meno stressati e con meno ansia.
+8-1	568-570	La	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	8-1	
+8-2	571-578	maggior	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	8-1	
+8-3	579-584	parte	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	8-1	
+8-4	585-588	dei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	8-1	
+8-5	589-596	giovani	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	8-1	
+8-6	597-602	crede	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	8-1	
+8-7	603-606	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	8-1	
+8-8	607-613	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	8-1	
+8-9	614-615	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	8-1	
+8-10	616-618	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	8-1	
+8-11	619-623	modo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	ccomp	*	8-1	
+8-12	624-630	giusto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	8-1	
+8-13	631-634	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	8-1	
+8-14	635-639	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	8-1	
+8-15	640-647	lezione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	8-1	
+8-16	648-654	perché	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	8-1	
+8-17	655-663	riescono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	8-1	
+8-18	664-665	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	8-1	
+8-19	666-674	svolgere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	8-1	
+8-20	675-677	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	8-1	
+8-21	678-687	verifiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	8-1	
+8-22	688-692	meno	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-1	
+8-23	693-702	stressati	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	8-1	
+8-24	703-704	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	8-1	
+8-25	705-708	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	8-1	
+8-26	709-713	meno	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-1	
+8-27	714-719	ansia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	8-1	
+8-28	719-720	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	8-1	
+
+#Text=Smartphone, tablet e nootebook sono diventati fondamentali strumenti di lavoro.
+9-1	721-731	Smartphone	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	true	nsubj	*	9-1	
+9-2	731-732	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	true	_	punct	*	9-1	
+9-3	733-739	tablet	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	9-1	
+9-4	740-741	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	9-1	
+9-5	742-751	nootebook	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	9-1	
+9-6	752-756	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	9-1	
+9-7	757-766	diventati	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	Past	*	Gender=Masc\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	9-1	
+9-8	767-779	fondamentali	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	9-1	
+9-9	780-789	strumenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	9-1	
+9-10	790-792	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	9-1	
+9-11	793-799	lavoro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	9-1	
+9-12	799-800	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	9-1	
+
+#Text=Imparare online è semplice ma non permette di ricordarsi le cose studiate.
+10-1	801-809	Imparare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	10-1	
+10-2	810-816	online	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	10-1	
+10-3	817-818	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	10-1	
+10-4	819-827	semplice	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	10-1	
+10-5	828-830	ma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	10-1	
+10-6	831-834	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	10-1	
+10-7	835-843	permette	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	10-1	
+10-8	844-846	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	10-1	
+10-9	847-857	ricordarsi	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	*	_	_	_	_	_	_	_	_	_	obl	*	10-1	
+10-10	858-860	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	10-1	
+10-11	861-865	cose	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	10-1	
+10-12	866-874	studiate	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	Past	*	Gender=Fem\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	10-1	
+10-13	874-875	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	10-1	
+
+#Text=Studiare in modo digitale è rischioso per la nostra salute.
+11-1	876-884	Studiare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	11-1	
+11-2	885-887	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	11-1	
+11-3	888-892	modo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	11-1	
+11-4	893-901	digitale	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	11-1	
+11-5	902-903	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	11-1	
+11-6	904-913	rischioso	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	11-1	
+11-7	914-917	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	11-1	
+11-8	918-920	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	11-1	
+11-9	921-927	nostra	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Fem\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	11-1	
+11-10	928-934	salute	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	11-1	
+11-11	934-935	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	11-1	
+
+#Text=Per me è stato difficile perché ero appena arrivata in Italia, avevo bisogno stare con le persone e frequentare i corsi in presenza.
+12-1	936-939	Per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	12-1	
+12-2	940-942	me	*	*	*	*	*	*	*	*	*	Sing	1	*	Prs	*	*	*	Number=Sing\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	12-1	
+12-3	943-944	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	12-1	
+12-4	945-950	stato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	12-1	
+12-5	951-960	difficile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	12-1	
+12-6	961-967	perché	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	12-1	
+12-7	968-971	ero	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Imp	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Imp\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	12-1	
+12-8	972-978	appena	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	12-1	
+12-9	979-987	arrivata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	12-1	
+12-10	988-990	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	12-1	
+12-11	991-997	Italia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obl	*	12-1	
+12-12	997-998	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	12-1	
+12-13	999-1004	avevo	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Imp	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Imp\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	12-1	
+12-14	1005-1012	bisogno	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	12-1	
+12-15	1013-1018	stare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	12-1	
+12-16	1019-1022	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	12-1	
+12-17	1023-1025	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	12-1	
+12-18	1026-1033	persone	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	12-1	
+12-19	1034-1035	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	12-1	
+12-20	1036-1047	frequentare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	12-1	
+12-21	1048-1049	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	12-1	
+12-22	1050-1055	corsi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	12-1	
+12-23	1056-1058	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	12-1	
+12-24	1059-1067	presenza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	12-1	
+12-25	1067-1068	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	12-1	
+
+#Text=Le conservazioni online sono più complesse da svolgere, inffati possono esserci problemi di conseguenza, di connessione è impossibile capirsi.
+13-1	1069-1071	Le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	13-1	
+13-2	1072-1085	conservazioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	13-1	
+13-3	1086-1092	online	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	13-1	
+13-4	1093-1097	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	13-1	
+13-5	1098-1101	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	13-1	
+13-6	1102-1111	complesse	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	13-1	
+13-7	1112-1114	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	13-1	
+13-8	1115-1123	svolgere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	13-1	
+13-9	1123-1124	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	13-1	
+13-10	1125-1132	inffati	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	Past	*	Gender=Masc\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	13-1	
+13-11	1133-1140	possono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	13-1	
+13-12	1141-1148	esserci	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	13-1	
+13-13	1149-1157	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	13-1	
+13-14	1158-1160	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*[2]	*[2]	true[2]	*[5]	false[5]	_	_	_	_	case	*	13-1	
+13-15	1161-1172	conseguenza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	*[2]	*[2]	true[2]	*[5]	false[5]	_	_	_	_	nmod	*	13-1	
+13-16	1172-1173	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	13-1	
+13-17	1174-1176	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	13-1	
+13-18	1177-1188	connessione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	13-1	
+13-19	1189-1190	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	13-1	
+13-20	1191-1202	impossibile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	13-1	
+13-21	1203-1210	capirsi	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	*	_	_	_	_	_	_	_	_	_	obl	*	13-1	
+13-22	1210-1211	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	13-1	
+
+#Text=Durante le video lezioni gli studenti facilmente perdono l'attenzione guardando il proprio cellulare e fare le attività non inerenti alla spiegazione.
+14-1	1212-1219	Durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	true	case	*	14-1	
+14-2	1220-1222	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-1	
+14-3	1223-1228	video	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	14-1	
+14-4	1229-1236	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	14-1	
+14-5	1237-1240	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-1	
+14-6	1241-1249	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	14-1	
+14-7	1250-1260	facilmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	14-1	
+14-8	1261-1268	perdono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	14-1	
+14-9	1269-1271	l'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-1	
+14-10	1271-1281	attenzione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	14-1	
+14-11	1282-1291	guardando	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	14-1	
+14-12	1292-1294	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-1	
+14-13	1295-1302	proprio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Masc\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	14-1	
+14-14	1303-1312	cellulare	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	14-1	
+14-15	1313-1314	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	14-1	
+14-16	1315-1319	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	14-1	
+14-17	1320-1322	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-1	
+14-18	1323-1331	attività	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	14-1	
+14-19	1332-1335	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	14-1	
+14-20	1336-1344	inerenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	14-1	
+14-21	1345-1349	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	14-1	
+14-22	1350-1361	spiegazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	14-1	
+14-23	1361-1362	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	14-1	
+
+#Text=Dall'altra parte i docenti sono incapaci di avere un riscontro di cosa gli alunni abbiano effettivamente comprese.
+15-1	1363-1368	Dall'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	*[3]	*[3]	true[3]	*[6]	false[6]	overlap[7]	_	_	_	nsubj	*	15-1	
+15-2	1368-1373	altra	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	*[3]	*[3]	true[3]	*[6]	false[6]	overlap[7]	_	_	_	amod	*	15-1	
+15-3	1374-1379	parte	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	*[3]	*[3]	true[3]	*[6]	false[6]	_	_	_	_	obl	*	15-1	
+15-4	1380-1381	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	15-1	
+15-5	1382-1389	docenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	15-1	
+15-6	1390-1394	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	15-1	
+15-7	1395-1403	incapaci	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	obl	*	15-1	
+15-8	1404-1406	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	15-1	
+15-9	1407-1412	avere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	15-1	
+15-10	1413-1415	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	15-1	
+15-11	1416-1425	riscontro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	15-1	
+15-12	1426-1428	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	15-1	
+15-13	1429-1433	cosa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	15-1	
+15-14	1434-1437	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	15-1	
+15-15	1438-1444	alunni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	15-1	
+15-16	1445-1452	abbiano	*	*	*	*	*	*	Sub	*	*	Plur	3	*	*	*	Pres	*	Mood=Sub\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	15-1	
+15-17	1453-1467	effettivamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	15-1	
+15-18	1468-1476	comprese	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	15-1	
+15-19	1476-1477	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	15-1	
+
+#Text=Inoltre durante la DaD le attività pratiche sono impossibili da svolgere.
+16-1	1478-1485	Inoltre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*	*	true	*	false	_	_	_	_	advmod	*	16-1	
+16-2	1486-1493	durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	16-1	
+16-3	1494-1496	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	16-1	
+16-4	1497-1500	DaD	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obl	*	16-1	
+16-5	1501-1503	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	16-1	
+16-6	1504-1512	attività	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	16-1	
+16-7	1513-1521	pratiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	16-1	
+16-8	1522-1526	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	16-1	
+16-9	1527-1538	impossibili	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	16-1	
+16-10	1539-1541	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	16-1	
+16-11	1542-1550	svolgere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	16-1	
+16-12	1550-1551	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	16-1	
+
+#Text=Spero che tutto torni alla normalità al più presto possibile.
+17-1	1552-1557	Spero	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	true	root	*	17-1	
+17-2	1558-1561	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	17-1	
+17-3	1562-1567	tutto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	17-1	
+17-4	1568-1573	torni	*	*	*	*	*	*	Ind	*	*	Sing	2	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=2\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	17-1	
+17-5	1574-1578	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	xcomp	*	17-1	
+17-6	1579-1588	normalità	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	compound	*	17-1	
+17-7	1589-1591	al	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	17-1	
+17-8	1592-1595	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	17-1	
+17-9	1596-1602	presto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	17-1	
+17-10	1603-1612	possibile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	17-1	
+17-11	1612-1613	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	17-1	

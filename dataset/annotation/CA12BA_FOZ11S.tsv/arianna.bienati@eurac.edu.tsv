@@ -1,0 +1,224 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.Anonimizzazione|Kind
+#T_SP=webanno.custom.Connettivo|CategoriaPDTB|Comment|Connettivo
+#T_SP=webanno.custom.Connettivoproblematico|Commento|Problematico
+#T_SP=webanno.custom.ConnettivoproblematicoTint|Tint
+#T_SP=webanno.custom.Segmentazione|Virgolasplice
+#T_SP=webanno.custom.StrutturaCapoverso|Capoverso
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|flavor|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+
+
+#Text=Sono una studentessa di un Schoolname di Placename.
+1-1	0-4	Sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	true	cop	*	1-3	
+1-2	5-8	una	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	1-3	
+1-3	9-20	studentessa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	root	*	1-3	
+1-4	21-23	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	1-6	
+1-5	24-26	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	1-6	
+1-6	27-37	Schoolname	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	Schoolname	_	_	_	_	_	_	_	_	nmod	*	1-3	
+1-7	38-40	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	1-8	
+1-8	41-50	Placename	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	Placename	_	_	_	_	_	_	_	_	nmod	*	1-6	
+1-9	50-51	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	1-3	
+
+#Text=Ho letto la sua proposta di estendere, la Didattica Digitale Integrata, al il triennio delle scuole superiori e le scrivo questa lettera per farle conoscere il mio parere in merito.
+2-1	52-54	Ho	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	true	aux	*	2-2	
+2-2	55-60	letto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	2-2	
+2-3	61-63	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	2-5	
+2-4	64-67	sua	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Fem\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	2-5	
+2-5	68-76	proposta	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	2-2	
+2-6	77-79	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	2-7	
+2-7	80-89	estendere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	2-5	
+2-8	89-90	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	2-7	
+2-9	91-93	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	2-10	
+2-10	94-103	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obj	*	2-7	
+2-11	104-112	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	2-10	
+2-12	113-122	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	2-10	
+2-13	122-123	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	2-10	
+2-14	124-126	al	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	2-16	
+2-15	127-129	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	2-16	
+2-16	130-138	triennio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	2-27	
+2-17	139-144	delle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	2-18	
+2-18	145-151	scuole	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	2-16	
+2-19	152-161	superiori	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	2-18	
+2-20	162-163	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	EXPANSION:Conjunction	*	true	*	false	_	_	_	cc	*	2-22	
+2-21	164-166	le	*	*	*	*	*	Fem	*	*	*	Plur	3	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Plur\|Person=3\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	obj	*	2-22	
+2-22	167-173	scrivo	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	2-16	
+2-23	174-180	questa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Dem	*	*	*	Gender=Fem\|Number=Sing\|PronType=Dem	*	*	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	2-24	
+2-24	181-188	lettera	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	2-27	
+2-25	189-192	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	CONTINGENCY:Purpose	*	true	*	false	_	_	_	case	*	2-26	
+2-26	193-198	farle	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V+PC	VERB+PRON	*	_	_	_	_	_	_	_	_	_	nmod	*	2-24	
+2-27	199-208	conoscere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	2-10	
+2-28	209-211	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	2-30	
+2-29	212-215	mio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Masc\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	2-30	
+2-30	216-222	parere	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	2-27	
+2-31	223-225	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	2-32	
+2-32	226-232	merito	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	2-27	
+2-33	232-233	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	2-2	
+
+#Text=Io sono contraria alla Didattica Digitale Integrata.
+3-1	234-236	Io	*	*	*	*	*	*	*	*	*	Sing	1	*	Prs	*	*	*	Number=Sing\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	true	nsubj	*	3-3	
+3-2	237-241	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	3-3	
+3-3	242-251	contraria	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	3-3	
+3-4	252-256	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	nsubj	*	3-3	
+3-5	257-266	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nmod	*	3-4	
+3-6	267-275	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	3-5	
+3-7	276-285	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	3-5	
+3-8	285-286	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	3-3	
+
+#Text=La Didattica Digitale Integrata ha creato problemi agli studenti con l'orario delle lezioni.
+4-1	287-289	La	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	4-2	
+4-2	290-299	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nsubj	*	4-6	
+4-3	300-308	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	4-2	
+4-4	309-318	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	4-2	
+4-5	319-321	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	4-6	
+4-6	322-328	creato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	4-6	
+4-7	329-337	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	4-6	
+4-8	338-342	agli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	nmod	*	4-7	
+4-9	343-351	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	4-8	
+4-10	352-355	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	4-12	
+4-11	356-358	l'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	4-12	
+4-12	358-364	orario	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	4-9	
+4-13	365-370	delle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	4-14	
+4-14	371-378	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	4-12	
+4-15	378-379	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	4-6	
+
+#Text=Ho sentito che gli studenti che erano bravi a scuola, durante il periodo della Didattica Digitale Integrata, hanno avuto problemi con la concentrazione.
+5-1	380-382	Ho	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	true	aux	*	5-2	
+5-2	383-390	sentito	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	5-2	
+5-3	391-394	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	5-21	
+5-4	395-398	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-5	
+5-5	399-407	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	5-21	
+5-6	408-411	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	5-8	
+5-7	412-417	erano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Imp	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Imp\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	5-8	
+5-8	418-423	bravi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	5-5	
+5-9	424-425	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-10	
+5-10	426-432	scuola	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	5-8	
+5-11	432-433	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	5-5	
+5-12	434-441	durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-14	
+5-13	442-444	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-14	
+5-14	445-452	periodo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	5-21	
+5-15	453-458	della	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	nsubj	*	5-21	
+5-16	459-468	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nmod	*	5-15	
+5-17	469-477	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	5-16	
+5-18	478-487	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	5-16	
+5-19	487-488	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	5-15	
+5-20	489-494	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	5-21	
+5-21	495-500	avuto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	5-2	
+5-22	501-509	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	5-21	
+5-23	510-513	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-25	
+5-24	514-516	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-25	
+5-25	517-531	concentrazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	5-21	
+5-26	531-532	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	5-2	
+
+#Text=Infatti, secondo il rapporto Istat 2021 le famiglie degli studenti dichiarano segnali di stanchezza e scarsa concentrazione, problemi di socializzazione e ridotta capacità di seguire le lezioni.
+6-1	533-540	Infatti	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	CONTINGENCY:Cause	*	true	*	false	_	_	true	advmod	*	6-12	
+6-2	540-541	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	6-1	
+6-3	542-549	secondo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	6-5	
+6-4	550-552	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-5	
+6-5	553-561	rapporto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	6-12	
+6-6	562-567	Istat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nmod	*	6-5	
+6-7	568-572	2021	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	obl	*	6-12	
+6-8	573-575	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-9	
+6-9	576-584	famiglie	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	6-12	
+6-10	585-590	degli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	6-11	
+6-11	591-599	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	6-12	
+6-12	600-610	dichiarano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	6-12	
+6-13	611-618	segnali	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	6-12	
+6-14	619-621	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	6-15	
+6-15	622-632	stanchezza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	6-13	
+6-16	633-634	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	_	coord-name	_	_	cc	*	6-18	
+6-17	635-641	scarsa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	6-18	
+6-18	642-656	concentrazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	6-15	
+6-19	656-657	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	6-20	
+6-20	658-666	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	6-13	
+6-21	667-669	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	6-22	
+6-22	670-685	socializzazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	6-20	
+6-23	686-687	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	*	*	false	*	false	_	_	_	cc	*	6-24	
+6-24	688-695	ridotta	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	6-13	
+6-25	696-704	capacità	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	6-24	
+6-26	705-707	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	6-27	
+6-27	708-715	seguire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	6-25	
+6-28	716-718	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-29	
+6-29	719-726	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	6-27	
+6-30	726-727	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	6-12	
+
+#Text=Durante il periodo della Didattica Digitale Integrata le famiglie non avevano la possibilità di comprare tablet o computer.
+7-1	728-735	Durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	true	case	*	7-3	
+7-2	736-738	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-3	
+7-3	739-746	periodo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	7-11	
+7-4	747-752	della	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	mark	*	7-7	
+7-5	753-762	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-7	
+7-6	763-771	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	7-5	
+7-7	772-781	Integrata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	7-3	
+7-8	782-784	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-9	
+7-9	785-793	famiglie	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	7-7	
+7-10	794-797	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	7-11	
+7-11	798-805	avevano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Imp	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Imp\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	7-11	
+7-12	806-808	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-13	
+7-13	809-820	possibilità	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	7-11	
+7-14	821-823	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	7-15	
+7-15	824-832	comprare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	7-13	
+7-16	833-839	tablet	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	7-15	
+7-17	840-841	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	_	coord-name	_	_	cc	*	7-18	
+7-18	842-850	computer	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	7-16	
+7-19	850-851	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	7-11	
+
+#Text=È vero che alcuni studenti hanno preso la Didattica Digitale Integrata positivamente facendo le verifiche con meno ansia rispetto a quelle in presenza.
+8-1	852-853	È	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	true	cop	*	8-2	
+8-2	854-858	vero	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	8-2	
+8-3	859-862	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	8-7	
+8-4	863-869	alcuni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Masc\|Number=Plur\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	8-5	
+8-5	870-878	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	8-7	
+8-6	879-884	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	8-7	
+8-7	885-890	preso	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	8-2	
+8-8	891-893	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	8-9	
+8-9	894-903	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obj	*	8-7	
+8-10	904-912	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	8-9	
+8-11	913-922	Integrata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	8-7	
+8-12	923-936	positivamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-11	
+8-13	937-944	facendo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	8-11	
+8-14	945-947	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	8-15	
+8-15	948-957	verifiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	8-13	
+8-16	958-961	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	8-18	
+8-17	962-966	meno	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-18	
+8-18	967-972	ansia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	8-13	
+8-19	973-981	rispetto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	8-21	
+8-20	982-983	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	fixed	*	8-19	
+8-21	984-990	quelle	*	*	*	*	*	Masc	*	*	*	Plur	3	*	Dem	*	*	*	Gender=Masc\|Number=Plur\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nmod	*	8-18	
+8-22	991-993	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	8-23	
+8-23	994-1002	presenza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	8-21	
+8-24	1002-1003	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	8-2	
+
+#Text=Il 66% degli studenti pensa di aver migliorato in Didattica Digitale Integrata l'organizzazione del tempo rispetto alla condizione precedente.
+9-1	1004-1006	Il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	9-3	
+9-2	1007-1009	66	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nummod	*	9-3	
+9-3	1009-1010	%	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	X	X	*	_	_	_	_	_	_	_	_	_	nsubj	*	9-6	
+9-4	1011-1016	degli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	9-5	
+9-5	1017-1025	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	9-6	
+9-6	1026-1031	pensa	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	9-6	
+9-7	1032-1034	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	9-9	
+9-8	1035-1039	aver	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	9-9	
+9-9	1040-1050	migliorato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	9-6	
+9-10	1051-1053	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	9-11	
+9-11	1054-1063	Didattica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obl	*	9-9	
+9-12	1064-1072	Digitale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	9-11	
+9-13	1073-1082	Integrata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obj	*	9-9	
+9-14	1083-1085	l'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	9-15	
+9-15	1085-1099	organizzazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	9-9	
+9-16	1100-1103	del	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	9-17	
+9-17	1104-1109	tempo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	9-15	
+9-18	1110-1118	rispetto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	9-20	
+9-19	1119-1123	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	9-20	
+9-20	1124-1134	condizione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	9-9	
+9-21	1135-1145	precedente	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	9-20	
+9-22	1145-1146	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	9-6	
+
+#Text=Cordiali Saluti,
+10-1	1147-1155	Cordiali	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	true	nmod	*	10-1	
+10-2	1156-1162	Saluti	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	flat:name	*	10-1	
+10-3	1162-1163	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	Corretto	_	punct	*	10-1	
+
+#Text=XYZ
+11-1	1164-1167	XYZ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	true	root	*	11-1	

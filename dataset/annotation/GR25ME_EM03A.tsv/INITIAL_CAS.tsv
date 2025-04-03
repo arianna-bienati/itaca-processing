@@ -1,0 +1,683 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures|animacy|aspect|case|definiteness|degree|gender|mood|negative|numType|number|person|possessive|pronType|reflex|tense|transitivity|value|verbForm|voice
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.Connettivo|CategoriaPDTB|Comment|Connettivo
+#T_SP=webanno.custom.Connettivoproblematico|Commento|Problematico
+#T_SP=webanno.custom.ConnettivoproblematicoTint|Tint
+#T_SP=webanno.custom.Segmentazione|Virgolasplice
+#T_SP=webanno.custom.SegmentazioneVirgoladitroppo|Virgoladitroppo
+#T_SP=webanno.custom.StrutturaCapoverso|Capoverso
+#T_RL=de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency|DependencyType|flavor|BT_de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS
+
+
+#Text=Molte famiglie hanno dichiarato che gli studenti hanno segnali di stanchezza, scarsa concentrazione, problemi di socializzazione e poca capacità di seguire le lezioni.
+1-1	0-5	Molte	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Fem\|Number=Plur\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	true	det	*	1-2	
+1-2	6-14	famiglie	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	1-4	
+1-3	15-20	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	1-4	
+1-4	21-31	dichiarato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	1-4	
+1-5	32-35	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	1-8	
+1-6	36-39	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	1-7	
+1-7	40-48	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	1-8	
+1-8	49-54	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	1-4	
+1-9	55-62	segnali	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	1-8	
+1-10	63-65	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	1-11	
+1-11	66-76	stanchezza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	1-9	
+1-12	76-77	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	1-11	
+1-13	78-84	scarsa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	1-14	
+1-14	85-99	concentrazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	1-11	
+1-15	99-100	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	1-14	
+1-16	101-109	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	appos	*	1-14	
+1-17	110-112	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	1-18	
+1-18	113-128	socializzazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	1-16	
+1-19	129-130	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	1-21	
+1-20	131-135	poca	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Ind	*	*	*	Gender=Fem\|Number=Sing\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	1-21	
+1-21	136-144	capacità	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	1-16	
+1-22	145-147	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	1-23	
+1-23	148-155	seguire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	1-21	
+1-24	156-158	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	1-25	
+1-25	159-166	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	1-23	
+1-26	166-167	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	1-4	
+
+#Text=Adesso noi ragazzi siamo in momento nel quale abbiamo problemi di concentrazione.
+2-1	168-174	Adesso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	true	root	*	2-1	
+2-2	175-178	noi	*	*	*	*	*	*	*	*	*	Plur	1	*	Prs	*	*	*	Number=Plur\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	2-1	
+2-3	179-186	ragazzi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	2-2	
+2-4	187-192	siamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	2-3	
+2-5	193-195	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	2-6	
+2-6	196-203	momento	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	2-4	
+2-7	204-207	nel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	2-8	
+2-8	208-213	quale	*	*	*	*	*	*	*	*	*	Sing	3	*	Rel	*	*	*	Number=Sing\|Person=3\|PronType=Rel	*	*	PR	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	2-9	
+2-9	214-221	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	2-6	
+2-10	222-230	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	2-9	
+2-11	231-233	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	2-12	
+2-12	234-248	concentrazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	2-10	
+2-13	248-249	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	2-1	
+
+#Text=In una settimana abbiamo piu di 7 verifiche- interrogazioni, questo ha trasformato nostro modo di studiare.
+3-1	250-252	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	3-3	
+3-2	253-256	una	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	3-3	
+3-3	257-266	settimana	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	3-5	
+3-4	267-274	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	3-5	
+3-5	275-278	piu	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Past	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Past\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	3-5	
+3-6	279-281	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	3-8	
+3-7	282-283	7	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nummod	*	3-8	
+3-8	284-293	verifiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	3-5	
+3-9	293-294	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FB	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	3-8	
+3-10	295-309	interrogazioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	compound	*	3-8	
+3-11	309-310	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	3-5	
+3-12	311-317	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	3-14	
+3-13	318-320	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	3-14	
+3-14	321-332	trasformato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	3-5	
+3-15	333-339	nostro	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Masc\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	3-16	
+3-16	340-344	modo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	3-14	
+3-17	345-347	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	3-18	
+3-18	348-356	studiare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	3-16	
+3-19	356-357	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	3-5	
+
+#Text=Per prendere una sufficienza dobbiamo imparare tutto da memoria e alla fine dimentichiamo quel argomento.
+4-1	358-361	Per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	4-2	
+4-2	362-370	prendere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	4-6	
+4-3	371-374	una	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	4-4	
+4-4	375-386	sufficienza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	4-2	
+4-5	387-395	dobbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	4-6	
+4-6	396-404	imparare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	4-6	
+4-7	405-410	tutto	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obj	*	4-6	
+4-8	411-413	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	4-9	
+4-9	414-421	memoria	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	4-7	
+4-10	422-423	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	4-13	
+4-11	424-428	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	*[1]	*[1]	true[1]	*[7]	false[7]	_	_	_	_	advmod	*	4-13	
+4-12	429-433	fine	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	*[1]	*[1]	true[1]	*[7]	false[7]	_	_	_	_	nsubj	*	4-13	
+4-13	434-447	dimentichiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	4-7	
+4-14	448-452	quel	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|PronType=Dem	*	*	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	4-15	
+4-15	453-462	argomento	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	4-13	
+4-16	462-463	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	4-6	
+
+#Text=Se ci pensiamo è tanta la fatica che alla fine abbiamo problemi di socializzazione perché stiamo tanto tempo chiusi a casa studiando che dimentichiamo di passare tempo con la famiglia e con i nostri amici.
+5-1	464-466	Se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	5-3	
+5-2	467-469	ci	*	*	*	*	*	Fem	*	*	*	Plur	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Plur\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	5-3	
+5-3	470-478	pensiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	5-7	
+5-4	479-480	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	5-7	
+5-5	481-486	tanta	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Ind	*	*	*	Gender=Fem\|Number=Sing\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-7	
+5-6	487-489	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-7	
+5-7	490-496	fatica	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	root	*	5-7	
+5-8	497-500	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	5-7	
+5-9	501-505	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	*[2]	*[2]	true[2]	*[8]	false[8]	_	_	_	_	nmod	*	5-8	
+5-10	506-510	fine	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	*[2]	*[2]	true[2]	*[8]	false[8]	_	_	_	_	nsubj	*	5-11	
+5-11	511-518	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	5-9	
+5-12	519-527	problemi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	5-11	
+5-13	528-530	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-14	
+5-14	531-546	socializzazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	5-12	
+5-15	547-553	perché	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	5-22	
+5-16	554-560	stiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	5-22	
+5-17	561-566	tanto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	5-18	
+5-18	567-572	tempo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	5-22	
+5-19	573-579	chiusi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	5-18	
+5-20	580-581	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-21	
+5-21	582-586	casa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	5-18	
+5-22	587-596	studiando	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	5-11	
+5-23	597-600	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	5-24	
+5-24	601-614	dimentichiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	5-22	
+5-25	615-617	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	5-26	
+5-26	618-625	passare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	5-24	
+5-27	626-631	tempo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	5-26	
+5-28	632-635	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-30	
+5-29	636-638	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-30	
+5-30	639-647	famiglia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	5-26	
+5-31	648-649	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	5-35	
+5-32	650-653	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	5-35	
+5-33	654-655	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	5-35	
+5-34	656-662	nostri	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Prs	*	*	*	Gender=Masc\|Number=Plur\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	5-35	
+5-35	663-668	amici	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	5-30	
+5-36	668-669	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	5-7	
+
+#Text=La scuola è diventata una cosa meccanica, studiare 24/7 e alla fine non stai imparando niente perché non ti concentri.
+6-1	670-672	La	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-2	
+6-2	673-679	scuola	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	6-4	
+6-3	680-681	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	6-4	
+6-4	682-691	diventata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	6-4	
+6-5	692-695	una	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	6-6	
+6-6	696-700	cosa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	6-4	
+6-7	701-710	meccanica	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	6-6	
+6-8	710-711	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	true	_	punct	*	6-9	
+6-9	712-720	studiare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	6-6	
+6-10	721-723	24	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nummod	*	6-12	
+6-11	723-724	/	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	6-10	
+6-12	724-725	7	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	obl	*	6-9	
+6-13	726-727	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	6-14	
+6-14	728-732	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	*[3]	*[3]	true[3]	*[9]	false[9]	_	_	_	_	conj	*	6-12	
+6-15	733-737	fine	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	*[3]	*[3]	true[3]	*[9]	false[9]	_	_	_	_	obl	*	6-17	
+6-16	738-741	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	6-17	
+6-17	742-746	stai	*	*	*	*	*	*	Ind	*	*	Sing	2	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=2\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	6-14	
+6-18	747-756	imparando	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	6-17	
+6-19	757-763	niente	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obj	*	6-18	
+6-20	764-770	perché	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	6-23	
+6-21	771-774	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	6-23	
+6-22	775-777	ti	*	*	*	*	*	Fem	*	*	*	Sing	2	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Sing\|Person=2\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	6-23	
+6-23	778-787	concentri	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	advcl	*	6-18	
+6-24	787-788	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	6-4	
+
+#Text=Le persone che dicono che noi ragazzi non abbiamo tante preoccupazioni si sbagliano già che grazie ai regolamenti delle scuole abbiamo cominciato ad avere ansia e stress.
+7-1	789-791	Le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-2	
+7-2	792-799	persone	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-13	
+7-3	800-803	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-4	
+7-4	804-810	dicono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	7-13	
+7-5	811-814	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	7-9	
+7-6	815-818	noi	*	*	*	*	*	*	*	*	*	Plur	1	*	Prs	*	*	*	Number=Plur\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-9	
+7-7	819-826	ragazzi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-9	
+7-8	827-830	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	7-9	
+7-9	831-838	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	7-13	
+7-10	839-844	tante	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Fem\|Number=Plur\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	7-11	
+7-11	845-859	preoccupazioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-13	
+7-12	860-862	si	*	*	*	*	*	*	*	*	*	*	3	*	Prs	*	*	*	Clitic=Yes\|Person=3\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	7-13	
+7-13	863-872	sbagliano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	7-13	
+7-14	873-876	già	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	7-22	
+7-15	877-880	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	7-22	
+7-16	881-887	grazie	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-22	
+7-17	888-890	ai	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	advmod	*	7-22	
+7-18	891-902	regolamenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	7-22	
+7-19	903-908	delle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	cc	*	7-22	
+7-20	909-915	scuole	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	7-22	
+7-21	916-923	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	7-22	
+7-22	924-934	cominciato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	7-13	
+7-23	935-937	ad	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	7-24	
+7-24	938-943	avere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	7-22	
+7-25	944-949	ansia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	7-24	
+7-26	950-951	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	7-27	
+7-27	952-958	stress	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	7-25	
+7-28	958-959	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	7-13	
+
+#Text=Non ci vuole tanto per pensare che noi alunni non siamo robot per fare tutto in fretta.
+8-1	960-963	Non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-3	
+8-2	964-966	ci	*	*	*	*	*	Fem	*	*	*	Plur	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Plur\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	8-3	
+8-3	967-972	vuole	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	8-3	
+8-4	973-978	tanto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-3	
+8-5	979-982	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	8-6	
+8-6	983-990	pensare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	8-3	
+8-7	991-994	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	8-12	
+8-8	995-998	noi	*	*	*	*	*	*	*	*	*	Plur	1	*	Prs	*	*	*	Number=Plur\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	8-12	
+8-9	999-1005	alunni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	8-12	
+8-10	1006-1009	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	8-12	
+8-11	1010-1015	siamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	8-12	
+8-12	1016-1021	robot	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	ccomp	*	8-6	
+8-13	1022-1025	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	8-14	
+8-14	1026-1030	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	8-12	
+8-15	1031-1036	tutto	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obj	*	8-14	
+8-16	1037-1039	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	8-17	
+8-17	1040-1046	fretta	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	8-14	
+8-18	1046-1047	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	8-3	
+
+#Text=Questo vuol dire che non è possibile essere concentrati quando non pensiamo chiaramente.
+9-1	1048-1054	Questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	9-3	
+9-2	1055-1059	vuol	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	9-3	
+9-3	1060-1064	dire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	9-3	
+9-4	1065-1068	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	9-7	
+9-5	1069-1072	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	9-7	
+9-6	1073-1074	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	9-7	
+9-7	1075-1084	possibile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	advcl	*	9-9	
+9-8	1085-1091	essere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	9-9	
+9-9	1092-1103	concentrati	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	ccomp	*	9-3	
+9-10	1104-1110	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	9-12	
+9-11	1111-1114	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	9-12	
+9-12	1115-1123	pensiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	9-9	
+9-13	1124-1135	chiaramente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	9-12	
+9-14	1135-1136	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	9-3	
+
+#Text=La scuola deve sapere che anche noi abbiamo una famiglia, che dobbiamo pensare alla nostra salute.
+10-1	1137-1139	La	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	10-2	
+10-2	1140-1146	scuola	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	10-3	
+10-3	1147-1151	deve	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	10-3	
+10-4	1152-1158	sapere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	10-3	
+10-5	1159-1162	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	10-8	
+10-6	1163-1168	anche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*	*	true	*	false	_	_	_	_	advmod	*	10-7	
+10-7	1169-1172	noi	*	*	*	*	*	*	*	*	*	Plur	1	*	Prs	*	*	*	Number=Plur\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	10-8	
+10-8	1173-1180	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	10-4	
+10-9	1181-1184	una	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	10-10	
+10-10	1185-1193	famiglia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	10-8	
+10-11	1193-1194	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	10-10	
+10-12	1195-1198	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	10-14	
+10-13	1199-1207	dobbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	10-14	
+10-14	1208-1215	pensare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	10-10	
+10-15	1216-1220	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	10-17	
+10-16	1221-1227	nostra	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Prs	*	*	*	Gender=Fem\|Number=Sing\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	10-17	
+10-17	1228-1234	salute	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	10-14	
+10-18	1234-1235	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	10-3	
+
+#Text=Arrivare a casa, fare 10 compiti per un giorno, studiare e alla fine andiamo a dormire alle 12:
+11-1	1236-1244	Arrivare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	11-1	
+11-2	1245-1246	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	11-3	
+11-3	1247-1251	casa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	11-1	
+11-4	1251-1252	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	11-1	
+11-5	1253-1257	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	11-1	
+11-6	1258-1260	10	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nummod	*	11-7	
+11-7	1261-1268	compiti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	11-5	
+11-8	1269-1272	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	11-10	
+11-9	1273-1275	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	11-10	
+11-10	1276-1282	giorno	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	11-5	
+11-11	1282-1283	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	11-12	
+11-12	1284-1292	studiare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	11-5	
+11-13	1293-1294	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	11-16	
+11-14	1295-1299	alla	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	*[4]	*[4]	true[4]	*[10]	false[10]	_	_	_	_	obl	*	11-16	
+11-15	1300-1304	fine	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	*[4]	*[4]	true[4]	*[10]	false[10]	_	_	_	_	nsubj	*	11-16	
+11-16	1305-1312	andiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	11-5	
+11-17	1313-1314	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	11-18	
+11-18	1315-1322	dormire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	11-16	
+11-19	1323-1327	alle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	obj	*	11-18	
+11-20	1328-1330	12	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nummod	*	11-19	
+11-21	1330-1331	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FC	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	11-1	
+
+#Text=00 pm come minimo.
+12-1	1332-1334	00	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	discourse	*	12-4	
+12-2	1335-1337	pm	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	flat	*	12-1	
+12-3	1338-1342	come	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*	*	true	*	false	_	_	_	_	advmod	*	12-4	
+12-4	1343-1349	minimo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	root	*	12-4	
+12-5	1349-1350	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	12-4	
+
+#Text=Quello che mi sconvolge è che dicono che dobbiamo uscire con degli amici.
+13-1	1351-1357	Quello	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	13-5	
+13-2	1358-1361	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	13-4	
+13-3	1362-1364	mi	*	*	*	*	*	Fem	*	*	*	Sing	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Sing\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	iobj	*	13-4	
+13-4	1365-1374	sconvolge	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	13-1	
+13-5	1375-1376	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	13-5	
+13-6	1377-1380	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	13-7	
+13-7	1381-1387	dicono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	13-5	
+13-8	1388-1391	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	13-10	
+13-9	1392-1400	dobbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	13-10	
+13-10	1401-1407	uscire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	13-7	
+13-11	1408-1411	con	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	13-13	
+13-12	1412-1417	degli	*	*	*	*	*	*	*	*	*	*	*	*	Art	*	*	*	Definite=Ind\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	13-13	
+13-13	1418-1423	amici	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	13-10	
+13-14	1423-1424	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	13-5	
+
+#Text=Per me non è facile, lo ammeto, per essere sincera mai ho avuto questo problema nel fare amicizia.
+14-1	1425-1428	Per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	true	case	*	14-2	
+14-2	1429-1431	me	*	*	*	*	*	*	*	*	*	Sing	1	*	Prs	*	*	*	Number=Sing\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	14-5	
+14-3	1432-1435	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	14-5	
+14-4	1436-1437	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	14-5	
+14-5	1438-1444	facile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	advcl	*	14-15	
+14-6	1444-1445	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	14-5	
+14-7	1446-1448	lo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-8	
+14-8	1449-1455	ammeto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	14-15	
+14-9	1455-1456	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	true	_	punct	*	14-8	
+14-10	1457-1460	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	14-11	
+14-11	1461-1467	essere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	14-15	
+14-12	1468-1475	sincera	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	14-11	
+14-13	1476-1479	mai	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	14-15	
+14-14	1480-1482	ho	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	14-15	
+14-15	1483-1488	avuto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	14-15	
+14-16	1489-1495	questo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|PronType=Dem	*	*	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	14-17	
+14-17	1496-1504	problema	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	14-15	
+14-18	1505-1508	nel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	mark	*	14-19	
+14-19	1509-1513	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	14-15	
+14-20	1514-1522	amicizia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	14-19	
+14-21	1522-1523	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	14-15	
+
+#Text=Per essere più chiara i tempi di studio sono diventati più brevi e intensi.
+15-1	1524-1527	Per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	15-2	
+15-2	1528-1534	essere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	15-10	
+15-3	1535-1538	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	15-4	
+15-4	1539-1545	chiara	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	15-2	
+15-5	1546-1547	i	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	15-6	
+15-6	1548-1553	tempi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	15-10	
+15-7	1554-1556	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	15-8	
+15-8	1557-1563	studio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	15-6	
+15-9	1564-1568	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	15-10	
+15-10	1569-1578	diventati	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	Past	*	Gender=Masc\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	15-10	
+15-11	1579-1582	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	15-12	
+15-12	1583-1588	brevi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	15-10	
+15-13	1589-1590	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	15-14	
+15-14	1591-1598	intensi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	conj	*	15-12	
+15-15	1598-1599	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	15-10	
+
+#Text=Nelle lezioni il tempo passa lento, sempre staimo controlando quanti minuti mancano perchè siamo esauruti fisicamente e mentalmente.
+16-1	1600-1605	Nelle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	obl	*	16-5	
+16-2	1606-1613	lezioni	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	16-5	
+16-3	1614-1616	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	16-4	
+16-4	1617-1622	tempo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	16-5	
+16-5	1623-1628	passa	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	16-5	
+16-6	1629-1634	lento	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	16-5	
+16-7	1634-1635	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	16-5	
+16-8	1636-1642	sempre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	16-9	
+16-9	1643-1649	staimo	*	*	*	*	Abs	Masc	*	*	*	Sing	*	*	*	*	*	*	Degree=Abs\|Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	xcomp	*	16-5	
+16-10	1650-1661	controlando	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Ger	Ger	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	16-9	
+16-11	1662-1668	quanti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Int	*	*	*	Gender=Masc\|Number=Plur\|PronType=Int	*	*	DQ	DET	*	_	_	_	_	_	_	_	_	_	det	*	16-12	
+16-12	1669-1675	minuti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	16-10	
+16-13	1676-1683	mancano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	16-10	
+16-14	1684-1690	perchè	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	16-16	
+16-15	1691-1696	siamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	16-16	
+16-16	1697-1705	esauruti	*	*	*	*	*	*	Sub	*	*	Sing	3	*	*	*	Pres	*	Mood=Sub\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	ccomp	*	16-13	
+16-17	1706-1717	fisicamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	16-16	
+16-18	1718-1719	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	16-19	
+16-19	1720-1731	mentalmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	conj	*	16-16	
+16-20	1731-1732	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	16-5	
+
+#Text=Non siamo atenti, pensiamo a tutto tranne a quello che dice il professore.
+17-1	1733-1736	Non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	17-3	
+17-2	1737-1742	siamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	17-3	
+17-3	1743-1749	atenti	*	*	*	*	*	*	*	*	*	Plur	*	*	*	*	Pres	*	Number=Plur\|Tense=Pres\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	17-3	
+17-4	1749-1750	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	17-3	
+17-5	1751-1759	pensiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	17-3	
+17-6	1760-1761	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	17-7	
+17-7	1762-1767	tutto	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	17-5	
+17-8	1768-1774	tranne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	17-10	
+17-9	1775-1776	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	fixed	*	17-8	
+17-10	1777-1783	quello	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	17-5	
+17-11	1784-1787	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	17-12	
+17-12	1788-1792	dice	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	17-10	
+17-13	1793-1795	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	17-14	
+17-14	1796-1806	professore	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	17-12	
+17-15	1806-1807	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	17-3	
+
+#Text=Ci sentiamo sotto pressione.
+18-1	1808-1810	Ci	*	*	*	*	*	Fem	*	*	*	Plur	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Plur\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	18-2	
+18-2	1811-1819	sentiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	18-2	
+18-3	1820-1825	sotto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	18-4	
+18-4	1826-1835	pressione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	18-2	
+18-5	1835-1836	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	18-2	
+
+#Text=Abbiamo difficoltà ad organizzare lo studio.
+19-1	1837-1844	Abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	19-1	
+19-2	1845-1855	difficoltà	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	19-1	
+19-3	1856-1858	ad	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	19-4	
+19-4	1859-1870	organizzare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	19-1	
+19-5	1871-1873	lo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	19-6	
+19-6	1874-1880	studio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	19-4	
+19-7	1880-1881	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	19-1	
+
+#Text=In più alcuni studenti non italiani che devono affrontare un corso di italiano, arrivano a casa alle 16 è qualcosa, fanno le cose sue, mangiano, ecc quando finiscono di fare tutto sono le 20:
+20-1	1882-1884	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*[5]	*[5]	true[5]	*[11]	false[11]	_	_	_	_	mark	*	20-15	
+20-2	1885-1888	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*[5]	*[5]	true[5]	*[11]	false[11]	_	_	_	_	advmod	*	20-15	
+20-3	1889-1895	alcuni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Masc\|Number=Plur\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	20-4	
+20-4	1896-1904	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	20-15	
+20-5	1905-1908	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	20-6	
+20-6	1909-1917	italiani	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	20-4	
+20-7	1918-1921	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	20-9	
+20-8	1922-1928	devono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	20-9	
+20-9	1929-1939	affrontare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	20-4	
+20-10	1940-1942	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	20-11	
+20-11	1943-1948	corso	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	20-9	
+20-12	1949-1951	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	20-13	
+20-13	1952-1960	italiano	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	20-11	
+20-14	1960-1961	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	true	_	punct	*	20-4	
+20-15	1962-1970	arrivano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	20-23	
+20-16	1971-1972	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	20-17	
+20-17	1973-1977	casa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	20-15	
+20-18	1978-1982	alle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	obl	*	20-23	
+20-19	1983-1985	16	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	nummod	*	20-21	
+20-20	1986-1987	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	20-21	
+20-21	1988-1996	qualcosa	*	*	*	*	*	Fem	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Fem\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	20-23	
+20-22	1996-1997	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	20-21	
+20-23	1998-2003	fanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	csubj	*	20-38	
+20-24	2004-2006	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	20-25	
+20-25	2007-2011	cose	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	20-23	
+20-26	2012-2015	sue	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Prs	*	*	*	Gender=Fem\|Number=Plur\|Poss=Yes\|PronType=Prs	*	*	AP	DET	*	_	_	_	_	_	_	_	_	_	det:poss	*	20-28	
+20-27	2015-2016	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	20-28	
+20-28	2017-2025	mangiano	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	20-25	
+20-29	2025-2026	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	20-28	
+20-30	2027-2030	ecc	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	punct	*	20-28	
+20-31	2031-2037	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	20-32	
+20-32	2038-2047	finiscono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	20-28	
+20-33	2048-2050	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	20-34	
+20-34	2051-2055	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	20-32	
+20-35	2056-2061	tutto	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obj	*	20-34	
+20-36	2062-2066	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	20-38	
+20-37	2067-2069	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	20-38	
+20-38	2070-2072	20	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	root	*	20-38	
+20-39	2072-2073	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FC	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	20-38	
+
+#Text=00 e a quella ora devono studiare.
+21-1	2074-2076	00	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	N	NUM	*	_	_	_	_	_	_	_	_	_	punct	*	21-7	
+21-2	2077-2078	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	21-7	
+21-3	2079-2080	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	21-5	
+21-4	2081-2087	quella	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Dem	*	*	*	Gender=Fem\|Number=Sing\|PronType=Dem	*	*	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	21-5	
+21-5	2088-2091	ora	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	21-7	
+21-6	2092-2098	devono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	21-7	
+21-7	2099-2107	studiare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	21-7	
+21-8	2107-2108	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	21-7	
+
+#Text=Io mi chiedo è la salute mentale di noi alunni non importa? .
+22-1	2109-2111	Io	*	*	*	*	*	*	*	*	*	Sing	1	*	Prs	*	*	*	Number=Sing\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	22-3	
+22-2	2112-2114	mi	*	*	*	*	*	Fem	*	*	*	Sing	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Sing\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	iobj	*	22-3	
+22-3	2115-2121	chiedo	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	22-3	
+22-4	2122-2123	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	22-6	
+22-5	2124-2126	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	22-6	
+22-6	2127-2133	salute	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	22-3	
+22-7	2134-2141	mentale	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	22-6	
+22-8	2142-2144	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	22-9	
+22-9	2145-2148	noi	*	*	*	*	*	*	*	*	*	Plur	1	*	Prs	*	*	*	Number=Plur\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	22-12	
+22-10	2149-2155	alunni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	22-12	
+22-11	2156-2159	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	22-12	
+22-12	2160-2167	importa	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	22-6	
+22-13	2167-2168	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	22-3	
+22-14	2169-2170	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	22-3	
+
+#Text=Sono molto preoccupata per questa situazione, è un tema molto importante, ci sentiamo sotto pressione.
+23-1	2171-2175	Sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	23-3	
+23-2	2176-2181	molto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	23-3	
+23-3	2182-2193	preoccupata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	23-10	
+23-4	2194-2197	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	23-6	
+23-5	2198-2204	questa	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Dem	*	*	*	Gender=Fem\|Number=Sing\|PronType=Dem	*	*	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	23-6	
+23-6	2205-2215	situazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	23-3	
+23-7	2215-2216	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	23-3	
+23-8	2217-2218	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	23-10	
+23-9	2219-2221	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	23-10	
+23-10	2222-2226	tema	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	parataxis	*	23-15	
+23-11	2227-2232	molto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	23-12	
+23-12	2233-2243	importante	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	23-10	
+23-13	2243-2244	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	23-10	
+23-14	2245-2247	ci	*	*	*	*	*	Masc	*	*	*	Plur	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Masc\|Number=Plur\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	23-15	
+23-15	2248-2256	sentiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	23-15	
+23-16	2257-2262	sotto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	23-17	
+23-17	2263-2272	pressione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	23-15	
+23-18	2272-2273	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	23-15	
+
+#Text=Poi il fatto che quando vogliamo studiare qualsiasi rumore disturba, il vicino che ha la tv al massimo, ecc. Facciamo di tutto per andare bene a scuola;
+24-1	2274-2277	Poi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*	*	true	*	false	_	_	_	_	advmod	*	24-3	
+24-2	2278-2280	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	24-3	
+24-3	2281-2286	fatto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	root	*	24-3	
+24-4	2287-2290	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	24-10	
+24-5	2291-2297	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	24-7	
+24-6	2298-2306	vogliamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	24-7	
+24-7	2307-2315	studiare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	24-10	
+24-8	2316-2325	qualsiasi	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	24-9	
+24-9	2326-2332	rumore	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	24-7	
+24-10	2333-2341	disturba	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	24-3	
+24-11	2341-2342	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	24-10	
+24-12	2343-2345	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	24-13	
+24-13	2346-2352	vicino	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	24-10	
+24-14	2353-2356	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	24-15	
+24-15	2357-2359	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	24-13	
+24-16	2360-2362	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	24-17	
+24-17	2363-2365	tv	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	24-15	
+24-18	2366-2368	al	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	*[6]	*[6]	true[6]	*[12]	false[12]	_	_	_	_	case	*	24-19	
+24-19	2369-2376	massimo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	*[6]	*[6]	true[6]	*[12]	false[12]	_	_	_	_	obl	*	24-15	
+24-20	2376-2377	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	24-15	
+24-21	2378-2382	ecc.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	24-22	
+24-22	2383-2391	Facciamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	24-15	
+24-23	2392-2394	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	24-24	
+24-24	2395-2400	tutto	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	24-22	
+24-25	2401-2404	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	24-26	
+24-26	2405-2411	andare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	24-22	
+24-27	2412-2416	bene	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	24-26	
+24-28	2417-2418	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	24-29	
+24-29	2419-2425	scuola	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	24-26	
+24-30	2425-2426	;	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FC	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	24-3	
+
+#Text=ma sempre sentiamo il "potresti fare di più".
+25-1	2427-2429	ma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	25-3	
+25-2	2430-2436	sempre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	25-3	
+25-3	2437-2445	sentiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	25-3	
+25-4	2446-2448	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	25-7	
+25-5	2449-2450	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FB	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	25-7	
+25-6	2450-2458	potresti	*	*	*	*	*	*	Cnd	*	*	Sing	2	*	*	*	Pres	*	Mood=Cnd\|Number=Sing\|Person=2\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	25-7	
+25-7	2459-2463	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	xcomp	*	25-3	
+25-8	2464-2466	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	25-9	
+25-9	2467-2470	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	25-7	
+25-10	2470-2471	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FB	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	25-7	
+25-11	2471-2472	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	25-3	
+
+#Text=Penso che le difficoltà scolastiche siano molte, ma una di loro è causata da che sempre pensiamo solo al voto, ci hanno inseganto questo.
+26-1	2473-2478	Penso	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	26-1	
+26-2	2479-2482	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	obj	*	26-1	
+26-3	2483-2485	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	26-4	
+26-4	2486-2496	difficoltà	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	26-2	
+26-5	2497-2508	scolastiche	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	26-4	
+26-6	2509-2514	siano	*	*	*	*	*	*	Sub	*	*	Plur	3	*	*	*	Pres	*	Mood=Sub\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	26-4	
+26-7	2515-2520	molte	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Fem\|Number=Plur\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	xcomp	*	26-6	
+26-8	2520-2521	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	26-14	
+26-9	2522-2524	ma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	26-14	
+26-10	2525-2528	una	*	*	*	*	*	Fem	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Fem\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	nsubj:pass	*	26-14	
+26-11	2529-2531	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	26-12	
+26-12	2532-2536	loro	*	*	*	*	*	*	*	*	*	*	*	*	Prs	*	*	*	PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nmod	*	26-10	
+26-13	2537-2538	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux:pass	*	26-14	
+26-14	2539-2546	causata	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	Past	*	Gender=Fem\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	26-7	
+26-15	2547-2549	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	26-16	
+26-16	2550-2553	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	26-18	
+26-17	2554-2560	sempre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	26-18	
+26-18	2561-2569	pensiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	26-14	
+26-19	2570-2574	solo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	*	*	true	*	false	_	_	_	_	advmod	*	26-21	
+26-20	2575-2577	al	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	26-21	
+26-21	2578-2582	voto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	26-18	
+26-22	2582-2583	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	26-25	
+26-23	2584-2586	ci	*	*	*	*	*	Masc	*	*	*	Plur	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Masc\|Number=Plur\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	iobj	*	26-25	
+26-24	2587-2592	hanno	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	26-25	
+26-25	2593-2602	inseganto	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	conj	*	26-18	
+26-26	2603-2609	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	26-25	
+26-27	2609-2610	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	26-4	
+
+#Text=Alcuni inseganti dicono che gli alunni sono lenti per fare le cose.
+27-1	2611-2617	Alcuni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Ind	*	*	*	Gender=Masc\|Number=Plur\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	27-2	
+27-2	2618-2627	inseganti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	27-3	
+27-3	2628-2634	dicono	*	*	*	*	*	*	Ind	*	*	Plur	3	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	27-3	
+27-4	2635-2638	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	_	_	_	_	_	_	_	_	_	mark	*	27-8	
+27-5	2639-2642	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	27-6	
+27-6	2643-2649	alunni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	27-8	
+27-7	2650-2654	sono	*	*	*	*	*	*	Ind	*	*	Sing	1	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	27-8	
+27-8	2655-2660	lenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	ccomp	*	27-3	
+27-9	2661-2664	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	mark	*	27-10	
+27-10	2665-2669	fare	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	27-8	
+27-11	2670-2672	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	27-12	
+27-12	2673-2677	cose	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	27-10	
+27-13	2677-2678	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	27-3	
+
+#Text=Ogni giorno dobbiamo sentire le stesse parole, ci ritroviamo in una opandemia che ha fatto tutto più difficile del solito.
+28-1	2679-2683	Ogni	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|PronType=Ind	*	*	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	28-2	
+28-2	2684-2690	giorno	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	28-4	
+28-3	2691-2699	dobbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	28-4	
+28-4	2700-2707	sentire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	28-10	
+28-5	2708-2710	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	28-7	
+28-6	2711-2717	stesse	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	28-7	
+28-7	2718-2724	parole	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	28-4	
+28-8	2724-2725	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	28-4	
+28-9	2726-2728	ci	*	*	*	*	*	Fem	*	*	*	Plur	1	*	Prs	*	*	*	Clitic=Yes\|Gender=Fem\|Number=Plur\|Person=1\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	28-10	
+28-10	2729-2739	ritroviamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	28-10	
+28-11	2740-2742	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	28-13	
+28-12	2743-2746	una	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	28-13	
+28-13	2747-2756	opandemia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	28-10	
+28-14	2757-2760	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	28-16	
+28-15	2761-2763	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	28-16	
+28-16	2764-2769	fatto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	28-13	
+28-17	2770-2775	tutto	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Ind	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Ind	*	*	PI	PRON	*	_	_	_	_	_	_	_	_	_	obj	*	28-16	
+28-18	2776-2779	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	28-19	
+28-19	2780-2789	difficile	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	28-17	
+28-20	2790-2793	del	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	case	*	28-21	
+28-21	2794-2800	solito	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	28-17	
+28-22	2800-2801	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	28-10	
+
+#Text=Il covid-19 ha incrementato lo stress , è quando queste si manifesta per lunghi periodi c'è il rischio di un esaurimento totale e per tale motivo siamo più stanchi.
+29-1	2802-2804	Il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	29-2	
+29-2	2805-2813	covid-19	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	SP	PROPN	*	_	_	_	_	_	_	_	_	_	nsubj	*	29-4	
+29-3	2814-2816	ha	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	29-4	
+29-4	2817-2829	incrementato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	29-17	
+29-5	2830-2832	lo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	29-6	
+29-6	2833-2839	stress	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	29-4	
+29-7	2840-2841	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	29-4	
+29-8	2842-2843	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	29-17	
+29-9	2844-2850	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CS	SCONJ	*	*	*	true	*	false	_	_	_	_	mark	*	29-12	
+29-10	2851-2857	queste	*	*	*	*	*	Masc	*	*	*	Plur	3	*	Dem	*	*	*	Gender=Masc\|Number=Plur\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	29-12	
+29-11	2858-2860	si	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Prs	*	*	*	Clitic=Yes\|Gender=Masc\|Number=Sing\|Person=3\|PronType=Prs	*	*	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	29-12	
+29-12	2861-2870	manifesta	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	29-17	
+29-13	2871-2874	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	29-15	
+29-14	2875-2881	lunghi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	29-15	
+29-15	2882-2889	periodi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	29-12	
+29-16	2890-2892	c'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PC	PRON	*	_	_	_	_	_	_	_	_	_	expl	*	29-17	
+29-17	2892-2893	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	29-17	
+29-18	2894-2896	il	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	29-19	
+29-19	2897-2904	rischio	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	29-17	
+29-20	2905-2907	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	29-22	
+29-21	2908-2910	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	29-22	
+29-22	2911-2922	esaurimento	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	29-19	
+29-23	2923-2929	totale	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	29-22	
+29-24	2930-2931	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	*	*	true	*	false	_	_	_	_	cc	*	29-30	
+29-25	2932-2935	per	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	*	*	true	*	false	_	_	_	_	case	*	29-27	
+29-26	2936-2940	tale	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DD	DET	*	_	_	_	_	_	_	_	_	_	det	*	29-27	
+29-27	2941-2947	motivo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obl	*	29-30	
+29-28	2948-2953	siamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	_	_	_	_	cop	*	29-30	
+29-29	2954-2957	più	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	29-30	
+29-30	2958-2965	stanchi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	conj	*	29-19	
+29-31	2965-2966	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	29-17	
+
+#Text=Non esiste uno studente che non sia stressato, che non abbia ansia.
+30-1	2967-2970	Non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	30-2	
+30-2	2971-2977	esiste	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	30-2	
+30-3	2978-2981	uno	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	30-4	
+30-4	2982-2990	studente	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	30-2	
+30-5	2991-2994	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj:pass	*	30-8	
+30-6	2995-2998	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	30-8	
+30-7	2999-3002	sia	*	*	*	*	*	*	Sub	*	*	Sing	1	*	*	*	Pres	*	Mood=Sub\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VA	AUX	*	_	_	_	_	_	pos-not	_	_	_	aux:pass	*	30-8	
+30-8	3003-3012	stressato	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	Past	*	Gender=Masc\|Number=Sing\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	30-4	
+30-9	3012-3013	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	30-8	
+30-10	3014-3017	che	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	PR	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	30-12	
+30-11	3018-3021	non	*	*	*	*	*	*	*	*	*	*	*	*	Neg	*	*	*	PronType=Neg	*	*	BN	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	30-12	
+30-12	3022-3027	abbia	*	*	*	*	*	*	Sub	*	*	Sing	1	*	*	*	Pres	*	Mood=Sub\|Number=Sing\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	30-8	
+30-13	3028-3033	ansia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	30-12	
+30-14	3033-3034	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	30-2	
+
+#Text=Spesso noi giovani abbiamo la difficoltà di gestire le responsabilità personale e l'ansia da prestazione.
+31-1	3035-3041	Spesso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	B	ADV	*	_	_	_	_	_	_	_	_	_	advmod	*	31-4	
+31-2	3042-3045	noi	*	*	*	*	*	*	*	*	*	Plur	1	*	Prs	*	*	*	Number=Plur\|Person=1\|PronType=Prs	*	*	PE	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	31-4	
+31-3	3046-3053	giovani	*	*	*	*	*	Fem	*	*	*	Plur	*	*	*	*	*	*	Gender=Fem\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	31-4	
+31-4	3054-3061	abbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	31-4	
+31-5	3062-3064	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	31-6	
+31-6	3065-3075	difficoltà	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	31-4	
+31-7	3076-3078	di	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	mark	*	31-8	
+31-8	3079-3086	gestire	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	31-6	
+31-9	3087-3089	le	*	*	*	*	*	Fem	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	31-10	
+31-10	3090-3104	responsabilità	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	31-8	
+31-11	3105-3114	personale	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	31-10	
+31-12	3115-3116	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	CC	CCONJ	*	_	_	_	_	_	coord-name	_	_	_	cc	*	31-14	
+31-13	3117-3119	l'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	31-14	
+31-14	3119-3124	ansia	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	conj	*	31-4	
+31-15	3125-3127	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	31-16	
+31-16	3128-3139	prestazione	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	31-14	
+31-17	3139-3140	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	31-4	
+
+#Text=dobbiamo avere la consapevolezza dei prorpi limiti, questo è un aspetto importante.
+32-1	3141-3149	dobbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	true	aux	*	32-2	
+32-2	3150-3155	avere	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	advcl	*	32-12	
+32-3	3156-3158	la	*	*	*	*	*	Fem	*	*	*	Sing	*	*	Art	*	*	*	Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	32-4	
+32-4	3159-3173	consapevolezza	*	*	*	*	*	Fem	*	*	*	Sing	*	*	*	*	*	*	Gender=Fem\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	32-2	
+32-5	3174-3177	dei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E+RD	ADP+DET	*	_	_	_	_	_	_	_	_	_	det	*	32-7	
+32-6	3178-3184	prorpi	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	32-7	
+32-7	3185-3191	limiti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nmod	*	32-4	
+32-8	3191-3192	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FF	PUNCT	*	_	_	_	_	_	_	Corretto	_	_	punct	*	32-2	
+32-9	3193-3199	questo	*	*	*	*	*	Masc	*	*	*	Sing	3	*	Dem	*	*	*	Gender=Masc\|Number=Sing\|Person=3\|PronType=Dem	*	*	PD	PRON	*	_	_	_	_	_	_	_	_	_	nsubj	*	32-12	
+32-10	3200-3201	è	*	*	*	*	*	*	Ind	*	*	Sing	3	*	*	*	Pres	*	Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	32-12	
+32-11	3202-3204	un	*	*	*	*	*	Masc	*	*	*	Sing	*	*	Art	*	*	*	Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art	*	*	RI	DET	*	_	_	_	_	_	_	_	_	_	det	*	32-12	
+32-12	3205-3212	aspetto	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	root	*	32-12	
+32-13	3213-3223	importante	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	A	ADJ	*	_	_	_	_	_	_	_	_	_	amod	*	32-12	
+32-14	3223-3224	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	32-12	
+
+#Text=Dobbiamo trovar eun modo in cui gli studenti siano meni stressati.
+33-1	3225-3233	Dobbiamo	*	*	*	*	*	*	Ind	*	*	Plur	1	*	*	*	Pres	*	Mood=Ind\|Number=Plur\|Person=1\|Tense=Pres\|VerbForm=Fin	Fin	*	VM	AUX	*	_	_	_	_	_	_	_	_	_	aux	*	33-2	
+33-2	3234-3240	trovar	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	VerbForm=Inf	Inf	*	V	VERB	*	_	_	_	_	_	_	_	_	_	root	*	33-2	
+33-3	3241-3244	eun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	DI	DET	*	_	_	_	_	_	_	_	_	_	det	*	33-4	
+33-4	3245-3249	modo	*	*	*	*	*	Masc	*	*	*	Sing	*	*	*	*	*	*	Gender=Masc\|Number=Sing	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	obj	*	33-2	
+33-5	3250-3252	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	E	ADP	*	_	_	_	_	_	_	_	_	_	case	*	33-6	
+33-6	3253-3256	cui	*	*	*	*	*	*	*	*	*	Plur	3	*	Rel	*	*	*	Number=Plur\|Person=3\|PronType=Rel	*	*	PR	PRON	*	_	_	_	_	_	_	_	_	_	obl	*	33-10	
+33-7	3257-3260	gli	*	*	*	*	*	Masc	*	*	*	Plur	*	*	Art	*	*	*	Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art	*	*	RD	DET	*	_	_	_	_	_	_	_	_	_	det	*	33-8	
+33-8	3261-3269	studenti	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	nsubj	*	33-10	
+33-9	3270-3275	siano	*	*	*	*	*	*	Sub	*	*	Plur	3	*	*	*	Pres	*	Mood=Sub\|Number=Plur\|Person=3\|Tense=Pres\|VerbForm=Fin	Fin	*	V	VERB	*	_	_	_	_	_	_	_	_	_	cop	*	33-10	
+33-10	3276-3280	meni	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	*	*	Gender=Masc\|Number=Plur	*	*	S	NOUN	*	_	_	_	_	_	_	_	_	_	acl:relcl	*	33-4	
+33-11	3281-3290	stressati	*	*	*	*	*	Masc	*	*	*	Plur	*	*	*	*	Past	*	Gender=Masc\|Number=Plur\|Tense=Past\|VerbForm=Part	Part	*	V	VERB	*	_	_	_	_	_	_	_	_	_	acl	*	33-10	
+33-12	3290-3291	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	FS	PUNCT	*	_	_	_	_	_	_	_	_	_	punct	*	33-2	
