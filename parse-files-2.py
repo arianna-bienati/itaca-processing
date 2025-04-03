@@ -4,7 +4,7 @@ import os.path
 import random
 import time
 
-from webanno_tsv import webanno_tsv_read_file
+from itaca.webanno_tsv import webanno_tsv_read_file
 from sklearn.preprocessing import MultiLabelBinarizer
 from iterstrat.ml_stratifiers import MultilabelStratifiedShuffleSplit
 from openai import OpenAI

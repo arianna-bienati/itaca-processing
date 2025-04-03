@@ -5,7 +5,7 @@ import itertools
 from sklearn.metrics import cohen_kappa_score
 from sklearn.preprocessing import LabelEncoder
 
-from webanno_tsv import webanno_tsv_read_file
+from itaca.webanno_tsv import webanno_tsv_read_file
 
 possible_results = {
     "comparison": {"contrast", "similarity", "concession"},
