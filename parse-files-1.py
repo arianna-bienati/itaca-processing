@@ -34,7 +34,7 @@ test = True
 # )
 
 output_file = "output-test.txt"
-openai_api_key = "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"
+openai_api_key = ""
 model = "gpt-4o"
 client = OpenAI(
     api_key=openai_api_key,
