@@ -5,3 +5,9 @@ openai
 pandas
 matplotlib
 seaborn
+
+argparse
+requests
+unidecode
+tqdm
+statsmodels
