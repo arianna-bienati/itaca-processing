@@ -66,6 +66,7 @@ all_results = {}
 for llm in ['llama', 'openai']:
     for prompt in ['long', 'short']:
         filename = f"output-sent-{llm}-temp_0.5-{prompt}-1.txt"
+        filename = os.path.join("txt-output", filename)
         with open(filename) as f:
             results = json.load(f)
 
