@@ -29,6 +29,4 @@ In the repository you can find:
 * `agreement.py`: calculates agreement (Cohen's kappa) among human annotators and models' outputs
 * `evaluate.py`: computes evaluation metrics such as precision, recall, and F1-score for each combination of LLM (gpt4o-llama 3.3 70b) and prompt (long-short). It visualizes the confusion matrix using a heatmap to provide insights into the model's performance across different classes.
 * `human-agreement.py`: processes annotation data from TSV files in `dataset/annotation`, comparing the annotations made by the two different annotators. It visualizes the results in a heatmap, providing a visual comparison of human agreements and disagreements.
-* `parse-files-1.py` / `parse-files-2.py`: prompts language models to generate responses about the presence and sense of connectives in test sentences, based on collected examples from the training data.
-
-@ Alessio: are they different versions of the same script? 
+* `parse-files-1.py` / `parse-files-2.py`: prompts language models to generate responses about the presence and sense of connectives in test sentences, based on collected examples from the training data. The first one is related to prompt the LLM sentences grouped by connective candidates, the second one send the whole text to the LLM.
