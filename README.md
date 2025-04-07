@@ -14,8 +14,7 @@ In the repository you can find:
 
 * `dataset`:
     * `annotation`: contains all 40 manually annotated texts for the evaluation sample. In each folder, you can find annotations by Arianna Bienati and Mariachiara Pascucci and `INITIAL_CAS.tsv` contains the initial pre-annotated files.
-    * `curation`: contains all 40 curated documents. Curated files has been jointly produced by Arianna Bienati and Mariachiara Pascucci.
-    * `source`: contains all 206 (??? @Jenny / @Alessio: da dove viene `source`?) files exported from the ITACA project, from which the first 40 has been annotated.
+    * `curation`: contains all 40 curated documents. Curated files have been jointly produced by Arianna Bienati and Mariachiara Pascucci.
 
 * `img`: contains heatmaps comparing models outputs and human annotated labels.
 
