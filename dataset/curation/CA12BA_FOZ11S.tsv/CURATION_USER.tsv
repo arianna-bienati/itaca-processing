@@ -1,0 +1,215 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Connettivo|CategoriaPDTB|Comment|Connettivo
+
+
+#Text=Sono una studentessa di un Schoolname di Placename.
+1-1	0-4	Sono	_	_	_	
+1-2	5-8	una	_	_	_	
+1-3	9-20	studentessa	_	_	_	
+1-4	21-23	di	_	_	_	
+1-5	24-26	un	_	_	_	
+1-6	27-37	Schoolname	_	_	_	
+1-7	38-40	di	_	_	_	
+1-8	41-50	Placename	_	_	_	
+1-9	50-51	.	_	_	_	
+
+#Text=Ho letto la sua proposta di estendere, la Didattica Digitale Integrata, al il triennio delle scuole superiori e le scrivo questa lettera per farle conoscere il mio parere in merito.
+2-1	52-54	Ho	_	_	_	
+2-2	55-60	letto	_	_	_	
+2-3	61-63	la	_	_	_	
+2-4	64-67	sua	_	_	_	
+2-5	68-76	proposta	_	_	_	
+2-6	77-79	di	_	_	_	
+2-7	80-89	estendere	_	_	_	
+2-8	89-90	,	_	_	_	
+2-9	91-93	la	_	_	_	
+2-10	94-103	Didattica	_	_	_	
+2-11	104-112	Digitale	_	_	_	
+2-12	113-122	Integrata	_	_	_	
+2-13	122-123	,	_	_	_	
+2-14	124-126	al	_	_	_	
+2-15	127-129	il	_	_	_	
+2-16	130-138	triennio	_	_	_	
+2-17	139-144	delle	_	_	_	
+2-18	145-151	scuole	_	_	_	
+2-19	152-161	superiori	_	_	_	
+2-20	162-163	e	EXPANSION:Conjunction	*	true	
+2-21	164-166	le	_	_	_	
+2-22	167-173	scrivo	_	_	_	
+2-23	174-180	questa	_	_	_	
+2-24	181-188	lettera	_	_	_	
+2-25	189-192	per	CONTINGENCY:Purpose	*	true	
+2-26	193-198	farle	_	_	_	
+2-27	199-208	conoscere	_	_	_	
+2-28	209-211	il	_	_	_	
+2-29	212-215	mio	_	_	_	
+2-30	216-222	parere	_	_	_	
+2-31	223-225	in	_	_	_	
+2-32	226-232	merito	_	_	_	
+2-33	232-233	.	_	_	_	
+
+#Text=Io sono contraria alla Didattica Digitale Integrata.
+3-1	234-236	Io	_	_	_	
+3-2	237-241	sono	_	_	_	
+3-3	242-251	contraria	_	_	_	
+3-4	252-256	alla	_	_	_	
+3-5	257-266	Didattica	_	_	_	
+3-6	267-275	Digitale	_	_	_	
+3-7	276-285	Integrata	_	_	_	
+3-8	285-286	.	_	_	_	
+
+#Text=La Didattica Digitale Integrata ha creato problemi agli studenti con l'orario delle lezioni.
+4-1	287-289	La	_	_	_	
+4-2	290-299	Didattica	_	_	_	
+4-3	300-308	Digitale	_	_	_	
+4-4	309-318	Integrata	_	_	_	
+4-5	319-321	ha	_	_	_	
+4-6	322-328	creato	_	_	_	
+4-7	329-337	problemi	_	_	_	
+4-8	338-342	agli	_	_	_	
+4-9	343-351	studenti	_	_	_	
+4-10	352-355	con	_	_	_	
+4-11	356-358	l'	_	_	_	
+4-12	358-364	orario	_	_	_	
+4-13	365-370	delle	_	_	_	
+4-14	371-378	lezioni	_	_	_	
+4-15	378-379	.	_	_	_	
+
+#Text=Ho sentito che gli studenti che erano bravi a scuola, durante il periodo della Didattica Digitale Integrata, hanno avuto problemi con la concentrazione.
+5-1	380-382	Ho	_	_	_	
+5-2	383-390	sentito	_	_	_	
+5-3	391-394	che	_	_	_	
+5-4	395-398	gli	_	_	_	
+5-5	399-407	studenti	_	_	_	
+5-6	408-411	che	_	_	_	
+5-7	412-417	erano	_	_	_	
+5-8	418-423	bravi	_	_	_	
+5-9	424-425	a	_	_	_	
+5-10	426-432	scuola	_	_	_	
+5-11	432-433	,	_	_	_	
+5-12	434-441	durante	_	_	_	
+5-13	442-444	il	_	_	_	
+5-14	445-452	periodo	_	_	_	
+5-15	453-458	della	_	_	_	
+5-16	459-468	Didattica	_	_	_	
+5-17	469-477	Digitale	_	_	_	
+5-18	478-487	Integrata	_	_	_	
+5-19	487-488	,	_	_	_	
+5-20	489-494	hanno	_	_	_	
+5-21	495-500	avuto	_	_	_	
+5-22	501-509	problemi	_	_	_	
+5-23	510-513	con	_	_	_	
+5-24	514-516	la	_	_	_	
+5-25	517-531	concentrazione	_	_	_	
+5-26	531-532	.	_	_	_	
+
+#Text=Infatti, secondo il rapporto Istat 2021 le famiglie degli studenti dichiarano segnali di stanchezza e scarsa concentrazione, problemi di socializzazione e ridotta capacità di seguire le lezioni.
+6-1	533-540	Infatti	CONTINGENCY:Cause	*	true	
+6-2	540-541	,	_	_	_	
+6-3	542-549	secondo	_	_	_	
+6-4	550-552	il	_	_	_	
+6-5	553-561	rapporto	_	_	_	
+6-6	562-567	Istat	_	_	_	
+6-7	568-572	2021	_	_	_	
+6-8	573-575	le	_	_	_	
+6-9	576-584	famiglie	_	_	_	
+6-10	585-590	degli	_	_	_	
+6-11	591-599	studenti	_	_	_	
+6-12	600-610	dichiarano	_	_	_	
+6-13	611-618	segnali	_	_	_	
+6-14	619-621	di	_	_	_	
+6-15	622-632	stanchezza	_	_	_	
+6-16	633-634	e	_	_	_	
+6-17	635-641	scarsa	_	_	_	
+6-18	642-656	concentrazione	_	_	_	
+6-19	656-657	,	_	_	_	
+6-20	658-666	problemi	_	_	_	
+6-21	667-669	di	_	_	_	
+6-22	670-685	socializzazione	_	_	_	
+6-23	686-687	e	*	*	false	
+6-24	688-695	ridotta	_	_	_	
+6-25	696-704	capacità	_	_	_	
+6-26	705-707	di	_	_	_	
+6-27	708-715	seguire	_	_	_	
+6-28	716-718	le	_	_	_	
+6-29	719-726	lezioni	_	_	_	
+6-30	726-727	.	_	_	_	
+
+#Text=Durante il periodo della Didattica Digitale Integrata le famiglie non avevano la possibilità di comprare tablet o computer.
+7-1	728-735	Durante	_	_	_	
+7-2	736-738	il	_	_	_	
+7-3	739-746	periodo	_	_	_	
+7-4	747-752	della	_	_	_	
+7-5	753-762	Didattica	_	_	_	
+7-6	763-771	Digitale	_	_	_	
+7-7	772-781	Integrata	_	_	_	
+7-8	782-784	le	_	_	_	
+7-9	785-793	famiglie	_	_	_	
+7-10	794-797	non	_	_	_	
+7-11	798-805	avevano	_	_	_	
+7-12	806-808	la	_	_	_	
+7-13	809-820	possibilità	_	_	_	
+7-14	821-823	di	_	_	_	
+7-15	824-832	comprare	_	_	_	
+7-16	833-839	tablet	_	_	_	
+7-17	840-841	o	_	_	_	
+7-18	842-850	computer	_	_	_	
+7-19	850-851	.	_	_	_	
+
+#Text=È vero che alcuni studenti hanno preso la Didattica Digitale Integrata positivamente facendo le verifiche con meno ansia rispetto a quelle in presenza.
+8-1	852-853	È	_	_	_	
+8-2	854-858	vero	_	_	_	
+8-3	859-862	che	_	_	_	
+8-4	863-869	alcuni	_	_	_	
+8-5	870-878	studenti	_	_	_	
+8-6	879-884	hanno	_	_	_	
+8-7	885-890	preso	_	_	_	
+8-8	891-893	la	_	_	_	
+8-9	894-903	Didattica	_	_	_	
+8-10	904-912	Digitale	_	_	_	
+8-11	913-922	Integrata	_	_	_	
+8-12	923-936	positivamente	_	_	_	
+8-13	937-944	facendo	_	_	_	
+8-14	945-947	le	_	_	_	
+8-15	948-957	verifiche	_	_	_	
+8-16	958-961	con	_	_	_	
+8-17	962-966	meno	_	_	_	
+8-18	967-972	ansia	_	_	_	
+8-19	973-981	rispetto	_	_	_	
+8-20	982-983	a	_	_	_	
+8-21	984-990	quelle	_	_	_	
+8-22	991-993	in	_	_	_	
+8-23	994-1002	presenza	_	_	_	
+8-24	1002-1003	.	_	_	_	
+
+#Text=Il 66% degli studenti pensa di aver migliorato in Didattica Digitale Integrata l'organizzazione del tempo rispetto alla condizione precedente.
+9-1	1004-1006	Il	_	_	_	
+9-2	1007-1009	66	_	_	_	
+9-3	1009-1010	%	_	_	_	
+9-4	1011-1016	degli	_	_	_	
+9-5	1017-1025	studenti	_	_	_	
+9-6	1026-1031	pensa	_	_	_	
+9-7	1032-1034	di	_	_	_	
+9-8	1035-1039	aver	_	_	_	
+9-9	1040-1050	migliorato	_	_	_	
+9-10	1051-1053	in	_	_	_	
+9-11	1054-1063	Didattica	_	_	_	
+9-12	1064-1072	Digitale	_	_	_	
+9-13	1073-1082	Integrata	_	_	_	
+9-14	1083-1085	l'	_	_	_	
+9-15	1085-1099	organizzazione	_	_	_	
+9-16	1100-1103	del	_	_	_	
+9-17	1104-1109	tempo	_	_	_	
+9-18	1110-1118	rispetto	_	_	_	
+9-19	1119-1123	alla	_	_	_	
+9-20	1124-1134	condizione	_	_	_	
+9-21	1135-1145	precedente	_	_	_	
+9-22	1145-1146	.	_	_	_	
+
+#Text=Cordiali Saluti,
+10-1	1147-1155	Cordiali	_	_	_	
+10-2	1156-1162	Saluti	_	_	_	
+10-3	1162-1163	,	_	_	_	
+
+#Text=XYZ
+11-1	1164-1167	XYZ	_	_	_	
