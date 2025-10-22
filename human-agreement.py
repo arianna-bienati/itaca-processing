@@ -14,6 +14,8 @@ allowed_basenames = ["arianna.bienati@eurac.edu.tsv", "mariachiara.pascucci@phd.
 folder = "dataset/annotation"
 
 merge_text_labels = True
+threshold = 0
+figsize = (48, 40)
 
 results = {}
 for basename in allowed_basenames:
@@ -78,12 +80,12 @@ df = pd.DataFrame(data)
 
 # Filter out labels that appear less than 10 times
 label_counts = df.apply(pd.Series.value_counts).fillna(0).sum(axis=1)
-labels_to_keep = label_counts[label_counts >= 10].index
+labels_to_keep = label_counts[label_counts >= threshold].index
 df = df[df[annotator_1].isin(labels_to_keep) & df[annotator_2].isin(labels_to_keep)]
 
 # Create the confusion matrix
 confusion_matrix = pd.crosstab(df[annotator_1], df[annotator_2])
-plt.figure(figsize=(24, 20))
+plt.figure(figsize=figsize)
 
 # Case 1: Basic heatmap
 # sns.heatmap(confusion_matrix, annot=True, cmap="YlGnBu", fmt="d")
