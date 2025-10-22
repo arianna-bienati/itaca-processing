@@ -4,6 +4,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 map = {
     "congiunzione": "expansion:conjunction",
@@ -22,7 +23,7 @@ possible_results = {
 }
 
 abstention_label = "false"
-limit = 10
+threshold = 10
 problematic_expressions = {"e", "per"}
 
 def shorten_res(original_result):
@@ -56,6 +57,7 @@ for llm in ["llama", "openai"]:
                 collect_gold = False
             this_list = []
             filename = f"output-{llm}-temp_0.5-{prompt}-{i + 1}.txt"
+            filename = os.path.join("txt-output", filename)
             df = pd.read_csv(filename, delimiter="\t")
             for index, row in df.iterrows():
                 word_list.append(row.iloc[0].lower())
@@ -114,7 +116,7 @@ for llm in ["llama", "openai"]:
             example_counter = Counter(gold_results)
             labels_to_remove = []
             for label, count in example_counter.items():
-                if count < limit:
+                if count < threshold:
                     labels_to_remove.append(label)
 
             labels = np.unique(gold_results + final_results)  # Ensures all labels are considered
