@@ -13,9 +13,9 @@ skip_files = {"AC20PA_BAZ14M.tsv", "AC20PA_MOH28R.tsv", "AL07BN_BAS27F.tsv", "AL
 allowed_basenames = ["arianna.bienati@eurac.edu.tsv", "mariachiara.pascucci@phd.unipi.it.tsv"]
 folder = "dataset/annotation"
 
-merge_text_labels = True
-threshold = 0
-figsize = (48, 40)
+merge_text_labels = False
+threshold = 10
+figsize = (24, 20)
 
 results = {}
 for basename in allowed_basenames:
@@ -102,8 +102,9 @@ newcolors[0, :] = np.array([0.9, 0.9, 0.9, 1])  # light grey for zeros
 newcmp = mcolors.ListedColormap(newcolors)
 sns.heatmap(confusion_matrix, annot=True, cmap=newcmp, fmt="d")
 
-plt.title("Comparison of human annotations", fontsize=16)
-plt.xlabel("", fontsize=14)
-plt.ylabel("", fontsize=14)
+plt.title("Comparison of human annotations", fontsize=28)
+plt.xlabel("", fontsize=18)
+plt.ylabel("", fontsize=18)
 plt.tight_layout()  # Adjust the layout to make sure everything fits
-plt.show()
+#plt.show()
+plt.savefig("img/human-iaa.png")
