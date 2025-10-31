@@ -100,11 +100,14 @@ cmap = plt.cm.YlGnBu
 newcolors = cmap(np.linspace(0, 1, 256))
 newcolors[0, :] = np.array([0.9, 0.9, 0.9, 1])  # light grey for zeros
 newcmp = mcolors.ListedColormap(newcolors)
-sns.heatmap(confusion_matrix, annot=True, cmap=newcmp, fmt="d")
+ax = sns.heatmap(confusion_matrix, annot=True, cmap=newcmp, fmt="d", annot_kws={"size": 18})
+
+ax.tick_params(axis='x', labelsize=18)
+ax.tick_params(axis='y', labelsize=18)
 
 plt.title("Comparison of human annotations", fontsize=28)
-plt.xlabel("", fontsize=18)
-plt.ylabel("", fontsize=18)
+plt.xlabel("")
+plt.ylabel("")
 plt.tight_layout()  # Adjust the layout to make sure everything fits
 #plt.show()
 plt.savefig("img/human-iaa.png")
