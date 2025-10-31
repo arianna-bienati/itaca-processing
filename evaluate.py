@@ -3,6 +3,7 @@ from collections import Counter
 from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix, classification_report
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 import seaborn as sns
 import os
 
@@ -24,7 +25,7 @@ possible_results = {
 
 abstention_label = "false"
 threshold = 10
-problematic_expressions = {"e", "per"}
+problematic_expressions = {}
 
 def shorten_res(original_result):
     if ":" in original_result:
@@ -171,15 +172,24 @@ for llm in ["llama", "openai"]:
             print("\nConfusion Matrix:")
             print(conf_df)
 
-            plt.figure(figsize=(10, 8))
-            sns.heatmap(conf_df, annot=True, fmt="d", cmap="Blues", xticklabels=labels, yticklabels=labels)
+            plt.figure(figsize=(11, 9))
+            cmap = plt.cm.Blues
+            newcolors = cmap(np.linspace(0, 1, 256))
+            newcolors[0, :] = np.array([0.9, 0.9, 0.9, 1])  # light grey for zeros
+            newcmp = mcolors.ListedColormap(newcolors)
+            ax = sns.heatmap(conf_df, annot=True, fmt="d", cmap=newcmp, xticklabels=labels, yticklabels=labels, 
+                             annot_kws={"size": 16})
+            #sns.heatmap(conf_df, annot=True, fmt="d", cmap="Blues", xticklabels=labels, yticklabels=labels)
 
-            plt.xlabel("Predicted Labels")
-            plt.ylabel("True Labels")
-            plt.title(f"Confusion Matrix ({llm}-{prompt} - {exp_name})")
-            plt.xticks(rotation=45)
-            plt.yticks(rotation=45)
-            plt.show()
+            plt.xlabel("Predicted Labels", fontsize=16)
+            plt.ylabel("True Labels", fontsize=16)
+            plt.title(f"{llm}-{prompt}", fontsize=24)
+            ax.tick_params(axis='x', labelsize=16)
+            ax.tick_params(axis='y', labelsize=16, rotation=0)
+            #plt.xticks(rotation=45, fontsize=11)
+            #plt.yticks(rotation=45, fontsize=11)
+            #plt.show()
+            plt.savefig(f"img/{llm}-{prompt}.png")
 
             # Print Classification Report
             print("\nClassification Report:")
